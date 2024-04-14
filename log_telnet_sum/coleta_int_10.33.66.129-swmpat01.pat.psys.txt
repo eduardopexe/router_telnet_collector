@@ -1,0 +1,4 @@
+1312320722;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;swmpat01.pat.psys;GigabitEthernet1/1;;;0;0;0;0;0;0;
+1312320722;;up;up(connected);BKBC;up;-resets - ;641;646;0;;2;0;100;128360731020;121319557300;56728288260062;35354080517811;1.6;0.8;swmpat01.pat.psys;GigabitEthernet1/2;;;0;0;0;0;2;0;
+1312320722;;up;up(connected);BKBC;up;ok;80;80;0;;0;0;100;57183497249;45263542564;15336488625535;13370117373062;0.4;0.4;swmpat01.pat.psys;GigabitEthernet1/3;;;0;0;0;0;0;0;
+1312320722;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;swmpat01.pat.psys;GigabitEthernet1/28;;;0;0;0;0;0;0;

@@ -1,0 +1,5 @@
+1312333824;;up;up(connected);BKB;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;mcpoc04.poc.psys;FastEthernet3/1;;;0;0;0;0;0;0;
+1312333824;;up;up(connected);BKB;up;ok;0;0;0;;0;0;100;7006307;5018994;575427780;550954049;0.4;0.4;mcpoc04.poc.psys;FastEthernet3/2;;;0;0;0;0;0;0;
+1312333824;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;mcpoc04.poc.psys;GigabitEthernet7/1;;;0;0;0;0;0;0;
+1312333824;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;mcpoc04.poc.psys;GigabitEthernet8/2;;;0;0;0;0;0;0;
+1312333824;;up;up(connected);BKB;up;ok;0;0;0;;0;0;100;0;68602;0;2819468;0.4;0.4;mcpoc04.poc.psys;GigabitEthernet8/2.950;;;0;0;0;0;0;0;

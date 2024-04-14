@@ -1,0 +1,4 @@
+1312256046;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;20428423;109774571;13358361848;21016643653;0.4;0.4;swmscec02.scec.psys;GigabitEthernet1/0/1;;;0;0;0;0;0;0;
+1312256046;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;9824147;76017419;11914155411;14839038427;0.4;0.4;swmscec02.scec.psys;GigabitEthernet1/0/2;;;0;0;0;0;0;0;
+1312256046;;up;up(connected);BKBC_MAN;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;swmscec02.scec.psys;GigabitEthernet1/0/25;;;0;0;0;0;0;0;
+1312256046;;up;up(connected);BKBC_MAN;up;ok;0;0;0;;0;0;100;394657312;31381769;52448962351;25600139784;0.4;0.4;swmscec02.scec.psys;GigabitEthernet1/0/26;;;0;0;0;0;0;0;

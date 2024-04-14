@@ -1,0 +1,4 @@
+1312320847;;up;up(connected);BKBC_MAN;up;ok;0;0;0;;0;0;100;82771181;37535356;31159335;3459657389;0.4;0.4;swcigs02.igs.psys;FastEthernet0/6;;;0;0;0;0;0;0;
+1312320847;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;swcigs02.igs.psys;FastEthernet0/13;;;0;0;0;0;0;0;
+1312320847;;up;up(connected);BKBC;up;ok;0;0;0;;1;0;100;0;0;0;0;0.4;0.4;swcigs02.igs.psys;FastEthernet0/24;;;0;0;0;0;1;0;
+1312320847;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;1394236;37873131;335610324;2958701092;0.4;0.4;swcigs02.igs.psys;GigabitEthernet0/1;;;0;0;0;0;0;0;

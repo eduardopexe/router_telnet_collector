@@ -1,0 +1,2 @@
+1312319526;;up;up(connected);BKB;up;ok;0;0;0;;0;0;100;7105107;50889448;2196483312;5315413149;0.4;0.4;swcrpo02.rpo.psys;FastEthernet0/4;;;0;0;0;0;0;0;
+1312319527;;up;up(connected);BKBC_MAN;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;swcrpo02.rpo.psys;FastEthernet0/20;;;0;0;0;0;0;0;

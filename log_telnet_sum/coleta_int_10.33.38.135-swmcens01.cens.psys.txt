@@ -1,0 +1,4 @@
+1312313083;;up;up(connected);BKBC;up;-resets - ;290;290;0;;5;3;100;9551582122;8252374344;1203870133967;1774214769740;1.6;1.6;swmcens01.cens.psys;FastEthernet1/0/1;;;0;0;0;0;5;0;
+1312313083;;up;up(connected);BKBC;up;ok;0;0;0;;1;0;100;73770447;64141711;30759701441;10344504598;0.4;0.4;swmcens01.cens.psys;FastEthernet1/0/3;;;0;0;0;0;1;0;
+1312313083;;up;up(connected);BKBC_MAN;up;ok;0;0;0;;1;0;100;0;0;0;0;0.4;0.4;swmcens01.cens.psys;GigabitEthernet1/0/1;;;0;0;0;0;1;0;
+1312313083;;up;up(connected);BKBC_MAN;up;ok;0;0;0;;1;0;100;12070835557;10237905627;2076936926741;2702925215650;1.2;0.4;swmcens01.cens.psys;GigabitEthernet1/0/2;;;0;0;0;0;1;0;

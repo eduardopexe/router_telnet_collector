@@ -1,0 +1,1 @@
+1312297845;;up;up(connected);BKBC_MAN;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;swccta04.cta.psys;FastEthernet0/7;;;0;0;0;0;0;0;

@@ -1,0 +1,4 @@
+1312306485;;up;up;BKBC;up;ok;709;709;0;;0;567;100;6845738087;6021506615;2599389888384;3027969340032;0.4;0.4;rbigs01.igs.psys;ATM1/1/0.100;;;0;0;0;0;0;0;
+1312306485;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbigs01.igs.psys;GigabitEthernet3/32;;;0;0;0;0;0;0;
+1312306485;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbigs01.igs.psys;GigabitEthernet3/46;;;0;0;0;0;0;0;
+1312306485;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbigs01.igs.psys;GigabitEthernet5/1;;;0;0;0;0;0;0;

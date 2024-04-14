@@ -1,0 +1,1 @@
+1312320766;;up;up(connected);BKBC_MAN;up;-resets - ;0;0;0;;2;0;100;46;52;3108;5108;0.4;0.4;swcsjc01.sjc.psys;FastEthernet0/24;;;0;0;0;0;2;0;

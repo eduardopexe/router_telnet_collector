@@ -1,0 +1,3144 @@
+spawn telnet 10.32.63.3
+
+Trying 10.32.63.3...
+Connected to 10.32.63.3
+.
+Escape character is '^]'.
+
+
+**************************************************************************
+
+* ATENCAO!! ESTE SISTEMA EH RESTRITO APENAS A PESSOAS AUTORIZADAS!       *
+
+* Se voce nao tem ou nao sabe se tem a autorizacao necessaria para o     *
+
+* acesso a este sistema, desconecte-se agora.                            *
+
+* Toda acao executada neste sistema eh logada, podendo estas informacoes *
+
+* serem utilizadas para quaisquer fim definidos pelo proprietario deste. *
+
+* Se voce nao concorda com esta politica, desconecte-se agora.           *
+
+**************************************************************************
+
+
+
+User Access Verification
+
+Username: ps0417
+Password: 
+
+mccsl01.csl.psys>term len 0
+mccsl01.csl.psys>show int
+GigabitEthernet0/0 is up, line protocol is up 
+  Hardware is BCM1125 Internal MAC, address is 001e.be0f.e370 (bia 001e.be0f.e370)
+  Description: <backbone> %mccsl02.csl.psys_Gi0/0 # Uplink para MCCSL02 $ BKB ! 1 @ C
+  MTU 1534 bytes, BW 100000 Kbit, DLY 100 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation 802.1Q Virtual LAN, Vlan ID  1., loopback not set
+  Keepalive set (10 sec)
+  Full-duplex, 100Mb/s, media type is RJ45
+  output flow-control is XON, input flow-control is XON
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 1/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 184000 bits/sec, 92 packets/sec
+  5 minute output rate 88000 bits/sec, 88 packets/sec
+     76334821 packets input, 1416370995 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 9314839 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     65750473 packets output, 2688171603 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet0/0.100 is up, line protocol is up 
+  Hardware is BCM1125 Internal MAC, address is 001e.be0f.e370 (bia 001e.be0f.e370)
+  Internet address is 10.33.63.1/27
+  MTU 1534 bytes, BW 100000 Kbit, DLY 100 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation 802.1Q Virtual LAN, Vlan ID  100.
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last clearing of "show interface" counters never
+GigabitEthernet0/0.101 is up, line protocol is up 
+  Hardware is BCM1125 Internal MAC, address is 001e.be0f.e370 (bia 001e.be0f.e370)
+  Description: <VLAN 101> % mcpae02.pae.psys_G0/2 VLAN 101 # Uplink para MCPAE02 $ BKBC ! 1 @ C
+  Internet address is 10.34.16.90/30
+  MTU 1534 bytes, BW 10000 Kbit, DLY 100 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation 802.1Q Virtual LAN, Vlan ID  101.
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last clearing of "show interface" counters never
+GigabitEthernet0/1 is up, line protocol is up 
+  Hardware is BCM1125 Internal MAC, address is 001e.be0f.e371 (bia 001e.be0f.e371)
+  Description: <> %mccsl01.csl.psys_Gi0/1 # Uplink para SWCCSL02_F0/1 $ BKB ! 1 @ C
+  MTU 1534 bytes, BW 100000 Kbit, DLY 100 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation 802.1Q Virtual LAN, Vlan ID  1., loopback not set
+  Keepalive set (10 sec)
+  Full-duplex, 100Mb/s, media type is RJ45
+  output flow-control is XON, input flow-control is XON
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 6000 bits/sec, 9 packets/sec
+  5 minute output rate 3000 bits/sec, 5 packets/sec
+     9107045 packets input, 2071043463 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 6878128 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     6358759 packets output, 1019084360 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet0/1.200 is up, line protocol is up 
+  Hardware is BCM1125 Internal MAC, address is 001e.be0f.e371 (bia 001e.be0f.e371)
+  Internet address is 10.33.63.33/27
+  MTU 1534 bytes, BW 100000 Kbit, DLY 100 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation 802.1Q Virtual LAN, Vlan ID  200.
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last clearing of "show interface" counters never
+GigabitEthernet0/1.216 is up, line protocol is up 
+  Hardware is BCM1125 Internal MAC, address is 001e.be0f.e371 (bia 001e.be0f.e371)
+  Description: <VLAN 216> % mcpae02.pae.psys_G0/1_VLAN 216 # Uplink para MCPAE02 $ BKBC ! 1 @ C
+  Internet address is 10.34.16.102/30
+  MTU 1534 bytes, BW 10000 Kbit, DLY 100 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation 802.1Q Virtual LAN, Vlan ID  216.
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last clearing of "show interface" counters never
+Serial0/0/0 is up, line protocol is up 
+  Hardware is GT96K Serial
+  Description: <CABO> %IGCSL01_5.10 # Conexao Backbone IGX $ BKB ! 1 @
+  MTU 1542 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  64111, LMI stat recvd 64111, LMI upd recvd 0, DTE LMI up
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DTE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 930669/0, interface broadcasts 919984
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 1 packets/sec
+  5 minute output rate 0 bits/sec, 1 packets/sec
+     1026242 packets input, 51131275 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     1015800 packets output, 52395506 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+     DCD=up  DSR=up  DTR=up  RTS=up  CTS=up
+
+Serial0/0/0.602 is up, line protocol is up 
+  Hardware is GT96K Serial
+  Description: <BACKBONE> %mcpae02.pae.psys_ATM1/0.622 # Uplink MCPAE02 $ BKB !1 @C
+  Internet address is 10.34.16.14/30
+  MTU 1542 bytes, BW 1792 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial0/0/1 is administratively down, line protocol is down 
+  Hardware is GT96K Serial
+  Description: <CKT> % CONEXAO MCPAE03 via Multilink MFR10 $ BKB ! 1 @ C
+  MTU 1542 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0, DTE LMI down
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DTE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+     DCD=down  DSR=down  DTR=down  RTS=down  CTS=down
+
+Serial0/0/1.621 is administratively down, line protocol is down 
+  Hardware is GT96K Serial
+  Description: <CKT PAE AM CSL VS DPDV 0002  dlci 621> %mcpae01.pae.psys_S1/0/5:0.621 # Uplink MCPAE01 $ BKB !1 @C
+  Internet address is 10.34.16.38/30
+  MTU 1542 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial0/1/0 is up, line protocol is up 
+  Hardware is GT96K Serial
+  Description: <CKT CSLPYPAEU4YDPDV0001 > %mcpae04.pae.psys_S4/2:0 # Conexao Uplink com MCPAE04 $ BKB
+  MTU 1542 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  64110, LMI stat recvd 64110, LMI upd recvd 0, DTE LMI up
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DTE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 939419/0, interface broadcasts 928734
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 1000 bits/sec, 1 packets/sec
+  5 minute output rate 1000 bits/sec, 2 packets/sec
+     1891013 packets input, 142244677 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     1873472 packets output, 140916260 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+     DCD=up  DSR=up  DTR=up  RTS=up  CTS=up
+
+Serial0/1/0.622 is up, line protocol is up 
+  Hardware is GT96K Serial
+  Description: < CKT CSLPYPAEU4YDPDV0001  DLCI 622> %mcpae04.pae.psys_S4/2:0.622 # Uplink MCPAE04 $ BKB !1 @C
+  Internet address is 10.34.16.66/30
+  MTU 1542 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial1/0:0 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <CSL PY CSL VS 02048K 005 TS 1-4> %ra053522.csl.hnvr_Se0/0 # HDI FILIAL PASSO FUNDO $ FIL !1 @A
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 7/255, rxload 1/255
+  Encapsulation FRAME-RELAY, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64117, LMI stat sent  64117, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 34406/0, interface broadcasts 23721
+  Last input 00:00:02, output 00:00:02, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/2/0 (size/max/drops/flushes); Total output drops: 58679
+  Queueing strategy: dual fifo
+  Output queue: high size/max/dropped 0/256/0
+  Output queue: 0/128 (size/max)
+  5 minute input rate 1000 bits/sec, 3 packets/sec
+  5 minute output rate 8000 bits/sec, 5 packets/sec
+     5086139 packets input, 555569248 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     2 input errors, 1 CRC, 1 frame, 0 overrun, 0 ignored, 1 abort
+     15102988 packets output, 2909587475 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:1-4, Transmitter delay is 0 flags
+Serial1/0:0.100 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <CSL PY CSL VS 02048K 005 TS 1-4 DLCI 100 > %ra053522.csl.hnvr_Se0/0.100 # HDI FILIAL PASSO FUNDO $ FIL !1 @A
+  Internet address is 172.20.155.49/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 7/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+  Last clearing of "show interface" counters never
+Serial1/0:4 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA - 171075-1 - PAB AUTOTRAVI BORR. E PLASTICOS LTDA - 256Kb  - Jefferson - 27.05.2011
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:5-8, Transmitter delay is 0 flags
+Serial1/0:4.104 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA - 171075-1 - PAB AUTOTRAVI BORR. E PLASTICOS LTDA - 256Kb  - Jefferson - 27.05.2011
+  Internet address is 172.25.169.177/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial1/0:8 is up, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_CSL PY CSL VS 02048K 005 TS 9-10 / LP_2213-2010 > %ra060151.csl.brad_Serial0 # 29564 BDN SAN PELEGRINO SHOPPING MALL  $ BDN !2 @A
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output 7w1d, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/1861/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 1861 underruns
+     1861 output errors, 0 collisions, 21370 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:9-10, Transmitter delay is 0 flags
+Serial1/0:8.108 is down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_CSL PY CSL VS 02048K 005 TS 9-10 - DLCI 108 > %ra060151.csl.brad_Serial0.1 # 29564 BDN SAN PELEGRINO SHOPPING MALL $ BDN !2 @A
+  Internet address is 172.26.239.28/31
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial1/0:10 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:11, Transmitter delay is 0 flags
+Serial1/0:11 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:12, Transmitter delay is 0 flags
+Serial1/0:12 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < E1 CSL PY CSL VS 02048K 005 TS 13-14 / CSL PY CSL VS DPAT 0001> %ra02254ad.csl.unib_Serial0/1 # EMPRESAS VAREJO CAXIAS DO SUL $ PAB !1 
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:13-14, Transmitter delay is 0 flags
+Serial1/0:12.998 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 CSL PY CSL VS 02048K 005 TS 13-14 / CSL PY CSL VS DPAT 0001 / DLCI 99 > %ra02254ad.csl.unib_Serial0/1.1 # EMPRESAS VAREJO CAXIAS DO SUL $ PAB !1 @A
+  Internet address is 10.243.63.161/30
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+  Last clearing of "show interface" counters never
+Serial1/0:14 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # reservado BDN 5 PROJETO MIG VSAT / TERRESTRE TS 15/16 05/10/2009 PAULO HORACIO
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:15, Transmitter delay is 0 flags
+Serial1/0:15 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # reservado BDN 5 PROJETO MIG VSAT / TERRESTRE TS 15/16 05/10/2009 PAULO HORACIO
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:16, Transmitter delay is 0 flags
+Serial1/0:16 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_CSL PY CSL VS 02048K 005 TS 17-18 / LP_1324-2009 > %ra37702.csl.brad_Serial0/0/0 # 465 BDN 0465 BIG CAXIAS  $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 3/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64106, LMI stat sent  64106, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 301248/0, interface broadcasts 290562
+  Last input 00:00:06, output 00:00:02, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/271/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 1000 bits/sec, 1 packets/sec
+     437257 packets input, 28463722 bytes, 0 no buffer
+     Received 0 broadcasts, 7 runts, 0 giants, 0 throttles
+     269 input errors, 37 CRC, 230 frame, 0 overrun, 0 ignored, 268 abort
+     691497 packets output, 177745897 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:17-18, Transmitter delay is 0 flags
+Serial1/0:16.116 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_CSL PY CSL VS 02048K 005 TS 17-18 - DLCI 116 > %ra37702.csl.brad_Serial0/0/0.1 # 465 BDN 0465 BIG CAXIAS $ BDN !2 @A
+  Internet address is 172.24.15.137/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 3/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial1/0:18 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 CSLPYCSLVS02048K005 TS 19-22 / LP CSLPYPASIYDPHT0001> %ra021048.csl.brad_Serial0/0/0 # AG 0966 VILA LUCAS ARAUJO $ AGE !1
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64120, LMI stat sent  64120, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 295045/0, interface broadcasts 284360
+  Last input 00:00:03, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/2/0 (size/max/drops/flushes); Total output drops: 583
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 1000 bits/sec, 1 packets/sec
+  5 minute output rate 2000 bits/sec, 1 packets/sec
+     2197713 packets input, 284353072 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     2 input errors, 1 CRC, 1 frame, 0 overrun, 0 ignored, 0 abort
+     2225723 packets output, 955392158 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:19-22, Transmitter delay is 0 flags
+Serial1/0:18.958 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 CSLPYCSLVS02048K005 TS 19-22 / LP CSLPYPASIYDPHT0001 - DLCI 958> %ra021048.csl.brad_Serial0/0/0.1 # AG 0966 VILA LUCAS ARAUJO  $ AGE !1 @A 
+  Internet address is 172.25.252.17/30
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial1/0:22 is up, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA PARA AG VACARIA - 1-204486707 - BRUNO - 22/12/2010
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input 1w1d, output 00:00:06, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/789/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 4 runts, 0 giants, 0 throttles
+     7 input errors, 1 CRC, 6 frame, 0 overrun, 0 ignored, 4 abort
+     64110 packets output, 1538640 bytes, 782 underruns
+     782 output errors, 0 collisions, 21370 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:23-26, Transmitter delay is 0 flags
+Serial1/0:26 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 CSL PY CSL VS 02048K 005 TS 27-30 / LP CSLPYCSLPRIDPHT0002> %ra054901.csl.cea_Se0/0/0 # LOJA CEA CXS - LINK 1 Primesys - router 1 $cea !1
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64116, LMI stat sent  64116, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 10685/0, interface broadcasts 0
+  Last input 00:00:09, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 1097
+  Queueing strategy: dual fifo
+  Output queue: high size/max/dropped 0/256/0
+  Output queue: 0/128 (size/max)
+  5 minute input rate 0 bits/sec, 2 packets/sec
+  5 minute output rate 0 bits/sec, 1 packets/sec
+     3898718 packets input, 512129093 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     6950335 packets output, 1617856479 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:27-30, Transmitter delay is 0 flags
+Serial1/0:26.230 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 CSL PY CSL VS 02048K 005 TS 27-30 / LP CSLPYCSLPRIDPHT0002> %ra054901.csl.cea_Se0/0/0.230 # LOJA CEA CXS - LINK 1 Primesys - router 1 $cea !1 @A
+  Internet address is 5.1.43.81/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial1/0:30 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # Interface Vaga - ATUAL 09/12/08
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:31, Transmitter delay is 0 flags
+Serial1/1:0 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1 CSL PY CSL PH DPMV 0002/TS 1-16/CSL PY CSL PH DPMV 0002 / DLCI 814 >%ra03851ag.csl.brad_Serial0/0/0 # AG EMP CAXIAS DO SUL $ AGE !1
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64117, LMI stat sent  64117, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 295000/0, interface broadcasts 284315
+  Last input 00:00:03, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/2/0 (size/max/drops/flushes); Total output drops: 5282
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 2000 bits/sec, 2 packets/sec
+  5 minute output rate 2000 bits/sec, 2 packets/sec
+     2930089 packets input, 621588007 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     2 input errors, 0 CRC, 2 frame, 0 overrun, 0 ignored, 2 abort
+     3901017 packets output, 3351729825 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used: 0-31(UNFRAMED), Transmitter delay is 0 flags
+Serial1/1:0.814 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1 CSL PY CSL PH DPMV 0002/TS 1-16/CSL PY CSL PH DPMV 0002 / DLCI 814 >%ra03851ag.csl.brad_Serial0/0/0.1 # AG EMP CAXIAS DO SUL $ AGE !1@A
+  Internet address is 172.25.255.25/30
+  MTU 1500 bytes, BW 384 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial2/0:0 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_CSLPYCSLVSDM02048K001 TS 1-8 > %ra20687ep.csl.bseg_Serial0/0/0 # 9689 BSEG VPN AUTO RIO GRANDE DO SUL - BENTO GONGALVES - LINK TITULAR $ CLI !1
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 63712, LMI stat sent  63712, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 33575/0, interface broadcasts 22956
+  Last input 00:00:01, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/2657/0 (size/max/drops/flushes); Total output drops: 730
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     1889518 packets input, 440944083 bytes, 0 no buffer
+     Received 0 broadcasts, 289 runts, 0 giants, 0 throttles
+     2632 input errors, 650 CRC, 1982 frame, 0 overrun, 0 ignored, 843 abort
+     1769213 packets output, 1518564825 bytes, 15 underruns
+     15 output errors, 0 collisions, 134 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:1-8, Transmitter delay is 0 flags
+Serial2/0:0.114 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_CSLPYCSLVSDM02048K001 TS 1-8 DLCI 114 > %ra20687ep.csl.bseg_Serial0/0/0.1 # 9689 BSEG VPN AUTO RIO GRANDE DO SUL - BENTO GONGALVES - LINK TITULAR $ CLI !1 @A 
+  Internet address is 172.24.109.153/30
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial2/0:8 is up, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_CSLPYCSLVSDM02048K001 TS 9-10 / LP_1929-2010 > %ra059745.csl.brad_Serial0/0/0 # 29394 BDN ESTACAO RODOVIARIA DE CAXIAS DO SUL  $ BDN !2 @A
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output 7w1d, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/568/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 568 underruns
+     568 output errors, 0 collisions, 21370 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:9-10, Transmitter delay is 0 flags
+Serial2/0:8.208 is down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_CSLPYCSLVSDM02048K001 TS 9-10 - DLCI 208 > %ra059745.csl.brad_Serial0/0/0.1 # 29394 BDN ESTACAO RODOVIARIA DE CAXIAS DO SUL $ BDN !2 @A
+  Internet address is 172.26.255.96/31
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial2/0:10 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_CSL PY CSL VS DM 02048K 001 TS 11-12 / LP_CSL PY CSL VS DM 02048K 001 > %ra056943.csl.brad_Serial0/0/0 # 29268 BDN UPF - UNIVERSIDADE DE PASSO FUNDO  $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64050, LMI stat sent  64050, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 300504/3, interface broadcasts 289804
+  Last input 00:00:07, output 00:00:07, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/109/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/6/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     364588 packets input, 20691989 bytes, 0 no buffer
+     Received 0 broadcasts, 7 runts, 0 giants, 0 throttles
+     105 input errors, 30 CRC, 75 frame, 0 overrun, 0 ignored, 47 abort
+     597240 packets output, 168314705 bytes, 1 underruns
+     1 output errors, 0 collisions, 15 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:11-12, Transmitter delay is 0 flags
+Serial2/0:10.430 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_CSL PY CSL VS DM 02048K 001 TS 11-12 - DLCI 430 > %ra056943.csl.brad_Serial0/0/0.1 # 29268 BDN UPF - UNIVERSIDADE DE PASSO FUNDO $ BDN !2 @A
+  Internet address is 172.26.245.184/31
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial2/0:12 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < CSL PY CSL VS DM 02048K 001 TS 13-16/CSLPYCSLMHVDPHT0002>%ra22619.csl.brad_Serial0/1/0 # AG 2869 RUA MARQUES DE HERVAL  $ AGE !1
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 384 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:13-16, Transmitter delay is 0 flags
+Serial2/0:12.220 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < CSL PY CSL VS DM 02048K 001 TS 13-16/CSLPYCSLMHVDPHT0002 DLCI 220 >%ra22619.csl.brad_Serial0/1/0.1 # AG 2869 RUA MARQUES DE HERVAL  $ AGE !1 @A
+  Internet address is 172.25.3.169/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial2/0:16 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < 4700099157 / 3003/2008 > %ra053880.csl.ibi_Se0/0/0 # IBI - LOJAS IBI - ICS_0877 - CAXIAS DO SUL - LINK 1 Primesys - router 1 $ibi !1
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 2/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64079, LMI stat sent  64079, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 10685/0, interface broadcasts 0
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/112321/0 (size/max/drops/flushes); Total output drops: 1913
+  Queueing strategy: dual fifo
+  Output queue: high size/max/dropped 0/256/0
+  Output queue: 0/128 (size/max)
+  5 minute input rate 3000 bits/sec, 3 packets/sec
+  5 minute output rate 2000 bits/sec, 3 packets/sec
+     3325760 packets input, 496276560 bytes, 0 no buffer
+     Received 0 broadcasts, 108019 runts, 0 giants, 0 throttles
+     112288 input errors, 2710 CRC, 109578 frame, 0 overrun, 0 ignored, 1035 abort
+     7712869 packets output, 2037705076 bytes, 0 underruns
+     0 output errors, 0 collisions, 8 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:17-20, Transmitter delay is 0 flags
+Serial2/0:16.216 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < 4700099157 / 3003/2008 - DLCI 216 > %ra053880.csl.ibi_0/1/0.216 # IBI - LOJAS IBI - ICS_0877 - CAXIAS DO SUL - LINK 1 Primesys - router 1 $ibi !1 @A
+  Internet address is 5.1.11.89/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 2/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial2/0:20 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <INTERFACE VAGA> # LOJA HCARD NAC HIPERCARD BENTO GONCALVES $ PAB !1
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:21-22, Transmitter delay is 0 flags
+Serial2/0:22 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE VAGA
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:23, Transmitter delay is 0 flags
+Serial2/0:23 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < CSL PY CSL VS DM 02048K 001 TS 24-26/CSLPYCSLMHVDPCT0002>%ra22619.csl.brad_Serial0/1/0 # AG 2869 RUA MARQUES DE HERVAL  $ AGE !1
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64112, LMI stat sent  64112, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 288786/6, interface broadcasts 278107
+  Last input 00:00:03, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 1636
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/1636 (size/max total/threshold/drops) 
+     Conversations  0/22/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 192 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 2000 bits/sec, 2 packets/sec
+     164297 packets input, 13789858 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     4677328 packets output, 1575315946 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:24-31, Transmitter delay is 0 flags
+Serial2/0:23.220 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < CSL PY CSL VS DM 02048K 001 TS 24-26/CSLPYCSLMHVDPCT0002 DLCI 220 >%ra22619.csl.brad_Serial0/1/0.1 # AG 2869 RUA MARQUES DE HERVAL  $ AGE !1 @A
+  Internet address is 172.25.3.169/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial2/1:0 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < CSL PY BGV PZ DPMV 0002 >%ra03853ag.csl.brad_Serial0/0/0 # AG EMP BENTO GONGALVES  $ AGE !1
+  MTU 1500 bytes, BW 1024 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64117, LMI stat sent  64117, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 294934/0, interface broadcasts 284249
+  Last input 00:00:05, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 959
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 2000 bits/sec, 0 packets/sec
+     1460915 packets input, 259766738 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     1897537 packets output, 1257911158 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:1-16, Transmitter delay is 0 flags
+Serial2/1:0.916 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < CSL PY BGV PZ DPMV 0002 / DLCI 916 >%ra03853ag.csl.brad_Serial0/0/0.1 # AG EMP BENTO GONGALVES  $ AGE !1 @A
+  Internet address is 172.25.255.41/30
+  MTU 1500 bytes, BW 1024 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:0 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 453404 / 488105> %ra16697bd.csl.brad_Serial0.1 # BDN 22932 CARREFOUR CAXIAS DO SUL $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64111, LMI stat sent  64111, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 10805/0, interface broadcasts 116
+  Last input 00:00:02, output 00:00:02, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/13/0 (size/max/drops/flushes); Total output drops: 3
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/6/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     411141 packets input, 27664105 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     12 input errors, 4 CRC, 8 frame, 0 overrun, 0 ignored, 12 abort
+     390133 packets output, 41537937 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     2 carrier transitions
+  Timeslot(s) Used:1, Transmitter delay is 0 flags
+Serial3/0:0.625 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 453404 / 0488105 DLCI 625 > %ra16697bd.csl.brad_Serial0 # BDN 22932 CARREFOUR CAXIAS DO SUL $ BDN !2 @A
+  Internet address is 172.25.163.97/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:1 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < 453404 TS 2 / LP_Pta-B > %ra051946.cls.brad_Serial0/0/0 # 26979 BDN NACIONAL BENTO GONGALVES  $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64117, LMI stat sent  64117, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 301069/0, interface broadcasts 290382
+  Last input 00:00:06, output 00:00:06, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/7/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/6/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     368899 packets input, 21155328 bytes, 0 no buffer
+     Received 0 broadcasts, 5 runts, 0 giants, 0 throttles
+     6 input errors, 1 CRC, 5 frame, 0 overrun, 0 ignored, 1 abort
+     603017 packets output, 169473107 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     2 carrier transitions
+  Timeslot(s) Used:2, Transmitter delay is 0 flags
+Serial3/0:1.619 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < 453404 TS 2 - DLCI 619 > %ra051946.cls.brad_Serial0/0/0.1 # 26979 BDN NACIONAL BENTO GONGALVES $ BDN !2 @A
+  Internet address is 172.24.250.9/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:2 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 453404 / 0431464> %ra07324ag.csl.unib_Serial0 # AG 0213 ERECHIM $ AGE !2
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: dual fifo
+  Output queue: high size/max/dropped 0/256/0
+  Output queue: 0/128 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:3, Transmitter delay is 0 flags
+Serial3/0:2.112 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 453404 / 0431464 DLCI 112> %ra07324ag.csl.unib_Serial0/0.1 # AG 0213 ERECHIM $ AGE !2
+  Internet address is 10.243.63.57/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+  Last clearing of "show interface" counters never
+Serial3/0:3 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 453404 / 0509595> %ra050668.plt.hcard_Serial0/0/0 #  NAC DUPLO NACIONAL GRAMADO $ PAB !1
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:4, Transmitter delay is 0 flags
+Serial3/0:3.203 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 453404 / 0509595 DLCI 203> %ra050668.plt.hcard_Serial0/0/0.1 # NAC DUPLO NACIONAL GRAMADO $ PAB !1 @A
+  Internet address is 10.243.63.65/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+  Last clearing of "show interface" counters never
+Serial3/0:4 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA PARA SERASA - PASSO FUNDO OS 1-268977429  TS 5-6 PAULO HORACIO  01/08/2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: dual fifo
+  Output queue: high size/max/dropped 0/256/0
+  Output queue: 0/128 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:5, Transmitter delay is 0 flags
+Serial3/0:4.114 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0432896 DLCI 114> %ra07323ag.csl.unib_Serial0/0.1 # AG 0343 BENTO GONCALVES $ AGE !2 @A
+  Internet address is 10.243.63.41/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+  Last clearing of "show interface" counters never
+Serial3/0:5 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA PARA SERASA - PASSO FUNDO OS 1-268977429  TS 5-6 PAULO HORACIO  01/08/2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: dual fifo
+  Output queue: high size/max/dropped 0/256/0
+  Output queue: 0/128 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:6, Transmitter delay is 0 flags
+Serial3/0:5.135 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0431163 DLCI 135> %ra07815ag.csl.unib_Serial0/0.1 # AG 0255 PASSO FUNDO $ AGE !2
+  Internet address is 10.243.63.33/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+  Last clearing of "show interface" counters never
+Serial3/0:6 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_453404 TS 7 / LP_735294 > %ra035617.csl.brad_Serial0/0/0 # 21037 BDN PAE INDUSTRIA DE MATRIZES BELGA LTDA  $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 63516, LMI stat sent  63516, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 298172/0, interface broadcasts 287563
+  Last input 00:00:06, output 00:00:06, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/16645/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     367613 packets input, 21089272 bytes, 0 no buffer
+     Received 0 broadcasts, 3280 runts, 0 giants, 0 throttles
+     16635 input errors, 2903 CRC, 13732 frame, 0 overrun, 0 ignored, 7945 abort
+     610519 packets output, 168312623 bytes, 14 underruns
+     14 output errors, 0 collisions, 190 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     2 carrier transitions
+  Timeslot(s) Used:7, Transmitter delay is 0 flags
+Serial3/0:6.306 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_453404 TS 7 - DLCI 306 > %ra035617.csl.brad_Serial0/0/0.1 # 21037 BDN PAE INDUSTRIA DE MATRIZES BELGA LTDA $ BDN !2 @A
+  Internet address is 172.25.211.1/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:7 is up, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0431468> %ra07641pb.csl.unib_Serial0 # PAB 7628 UNIMED NORDESTE CAXIAS DO SUL $ PAB !2
+  Internet address is 10.243.63.25/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/196/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     64117 packets output, 1539876 bytes, 196 underruns
+     196 output errors, 0 collisions, 21369 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     2 carrier transitions
+  Timeslot(s) Used:8, Transmitter delay is 0 flags
+Serial3/0:8 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0454605> % ra06965bd.csl.brad_Serial0 # BDN 12695 JOST BRASIL $ BDN !2
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64055, LMI stat sent  64055, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 300797/0, interface broadcasts 290113
+  Last input 00:00:02, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/5/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/6/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     693220 packets input, 53204875 bytes, 0 no buffer
+     Received 0 broadcasts, 4 runts, 0 giants, 0 throttles
+     4 input errors, 2 CRC, 2 frame, 0 overrun, 0 ignored, 0 abort
+     622332 packets output, 176864569 bytes, 0 underruns
+     0 output errors, 0 collisions, 16 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     2 carrier transitions
+  Timeslot(s) Used:9, Transmitter delay is 0 flags
+Serial3/0:8.218 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0454605 DLCI 218> %ra06965bd.csl.brad_Serial0.1 # BDN 12695 JOST BRASIL SISTEMAS $ BDN !2
+  Internet address is 172.25.252.161/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:9 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0454985> %ra04985bd.csl.brad_Serial0 # BDN 20177 AV. DOS EXPEDICIONARIOS $ BDN !1
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64115, LMI stat sent  64115, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 300991/0, interface broadcasts 290303
+  Last input 00:00:03, output 00:00:03, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/1335/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/5/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     353274 packets input, 19658286 bytes, 0 no buffer
+     Received 0 broadcasts, 1013 runts, 0 giants, 0 throttles
+     1336 input errors, 556 CRC, 780 frame, 0 overrun, 0 ignored, 152 abort
+     603453 packets output, 168752218 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     2 carrier transitions
+  Timeslot(s) Used:10, Transmitter delay is 0 flags
+Serial3/0:9.136 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0454985 DLCI 136> %ra04985bd.csl.brad_Serial0.1 # BDN 20177 - AV. DOS EXPEDICIONARIOS $ BDN !1
+  Internet address is 172.25.230.137/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:10 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0455548> %ra11065bd.csl.brad_Serial0  # BDN 12641 SONAE PRAIA DE BELAS $ BDN !1
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 61243, LMI stat sent  61243, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 10336/0, interface broadcasts 123
+  Last input 00:00:01, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/494/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/4/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     337753 packets input, 18530681 bytes, 0 no buffer
+     Received 0 broadcasts, 100 runts, 0 giants, 0 throttles
+     493 input errors, 69 CRC, 424 frame, 0 overrun, 0 ignored, 298 abort
+     315231 packets output, 30313159 bytes, 0 underruns
+     0 output errors, 0 collisions, 954 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     2 carrier transitions
+  Timeslot(s) Used:11, Transmitter delay is 0 flags
+Serial3/0:10.510 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0455548 DLCI 510> %ra11065bd.csl.brad_Serial0.1 # BDN 12641 SONAE PRAIA DE BELAS $ BDN !1
+  Internet address is 172.25.253.1/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:11 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA CAXIAS DO SUL - SERASA-002 - TS 12-13 - MACCORD - 01/08/2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: dual fifo
+  Output queue: high size/max/dropped 0/256/0
+  Output queue: 0/128 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:12, Transmitter delay is 0 flags
+Serial3/0:11.211 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA CAXIAS DO SUL - SERASA-002 - TS 13-14 - MACCORD - 01/08/2011
+  Internet address is 10.243.63.177/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+  Last clearing of "show interface" counters never
+Serial3/0:12 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA CAXIAS DO SUL - SERASA-002 - TS 12-13 - MACCORD - 01/08/2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:13, Transmitter delay is 0 flags
+Serial3/0:13 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0455964> %ra11404bd.pae.brad_serial0/0 # BDN 22356 INVENSYS APPLIANCE CONTROLS LTDA $ BDN !2@B
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 3/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 63720, LMI stat sent  63720, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 300500/0, interface broadcasts 289857
+  Last input 00:00:03, output 00:00:03, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/791/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/6/32 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 1000 bits/sec, 1 packets/sec
+     642377 packets input, 36728255 bytes, 0 no buffer
+     Received 0 broadcasts, 692 runts, 0 giants, 0 throttles
+     788 input errors, 353 CRC, 435 frame, 0 overrun, 0 ignored, 87 abort
+     689630 packets output, 189892809 bytes, 0 underruns
+     0 output errors, 0 collisions, 97 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     2 carrier transitions
+  Timeslot(s) Used:14, Transmitter delay is 0 flags
+Serial3/0:13.513 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0455964 DLCI 513> %ra11404bd.pae.brad_Serial0/0.1 # BDN 22356 INVENSYS APPLIANCE CONTROLS LTDA $ BDN !2 @B
+  Internet address is 172.25.248.217/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 3/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:14 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_0453404 TS 15 / LP_594991 > %mccsl01.csl.psys_Serial3/0:14 # 13121 BDN PAE METALURGICA D.S.LTDA $ BDN !1 @B DLCI 301 > %ra055673.csl.brad_Serial0/0/0.1 # 13121 BDN PAE METALURGICA D.S.LTDA $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64108, LMI stat sent  64108, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 299838/0, interface broadcasts 289188
+  Last input 00:00:03, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/16/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     379263 packets input, 21992527 bytes, 0 no buffer
+     Received 0 broadcasts, 4 runts, 0 giants, 0 throttles
+     14 input errors, 7 CRC, 7 frame, 0 overrun, 0 ignored, 3 abort
+     611675 packets output, 169677651 bytes, 0 underruns
+     0 output errors, 0 collisions, 82 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     2 carrier transitions
+  Timeslot(s) Used:15, Transmitter delay is 0 flags
+Serial3/0:14.301 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_0453404 TS 15 / LP_594991 DLCI > %mccsl01.csl.psys_Serial3/0:14.301 # 13121 BDN PAE METALURGICA D.S.LTDA $ BDN !1 @B DLCI 301 > %ra055673.csl.brad_Serial0/0/0.1 # 13121 BDN PAE METALURGICA D.S.LTDA $ BDN !2 @A
+  Internet address is 172.25.141.57/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:15 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0456129> %ra11243bd.csl.brad_Serial0 # BDN 12659 SONAE J BONIFACIO $ BDN !1 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 55/255, rxload 23/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 63875, LMI stat sent  63875, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 300243/0, interface broadcasts 289558
+  Last input 00:00:06, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/20/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/7/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 6000 bits/sec, 8 packets/sec
+  5 minute output rate 14000 bits/sec, 6 packets/sec
+     428403 packets input, 24220887 bytes, 0 no buffer
+     Received 0 broadcasts, 3 runts, 0 giants, 0 throttles
+     17 input errors, 0 CRC, 17 frame, 0 overrun, 0 ignored, 11 abort
+     626359 packets output, 174852206 bytes, 0 underruns
+     0 output errors, 0 collisions, 44 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     2 carrier transitions
+  Timeslot(s) Used:16, Transmitter delay is 0 flags
+Serial3/0:15.615 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0456129 DLCI 615> %ra11243bd.csl.brad_Serial0 # BDN 12659 SONAE J BONIFACIO $ BDN !1 @A
+  Internet address is 172.25.248.169/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 55/255, rxload 23/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:16 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA - 171071-1 - PAB AGCO DO BRASIL COMIRCIO E INDZSTRIA LTDA - 256Kb  - Jefferson - 27.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/32 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:17, Transmitter delay is 0 flags
+Serial3/0:17 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA - 171071-1 - PAB AGCO DO BRASIL COMIRCIO E INDZSTRIA LTDA - 256Kb  - Jefferson - 27.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/32 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:18, Transmitter delay is 0 flags
+Serial3/0:18 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA - 171071-1 - PAB AGCO DO BRASIL COMIRCIO E INDZSTRIA LTDA - 256Kb  - Jefferson - 27.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/32 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:19, Transmitter delay is 0 flags
+Serial3/0:19 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA - 171071-1 - PAB AGCO DO BRASIL COMIRCIO E INDZSTRIA LTDA - 256Kb  - Jefferson - 27.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/8/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 5 runts, 0 giants, 0 throttles
+     8 input errors, 1 CRC, 7 frame, 0 overrun, 0 ignored, 8 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:20, Transmitter delay is 0 flags
+Serial3/0:20 is up, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0497009> %ra28318pb.csl.unib_Serial0 # MAKRO CAXIAS DO SUL $ PAB !1
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 6/0, interface broadcasts 4
+  Last input never, output 4d20h, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     6 packets output, 938 bytes, 0 underruns
+     0 output errors, 0 collisions, 21368 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     2 carrier transitions
+  Timeslot(s) Used:21, Transmitter delay is 0 flags
+Serial3/0:20.521 is down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0497009 DLCI 521> %ra28318pb.csl.unib_Serial0/0/0.1 #  MAKRO CAXIAS DO SUL $ PAB !1 @A
+  Internet address is 10.243.63.185/30
+  MTU 1500 bytes, BW 32 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:21 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0455795> %ra11063bd.csl.brad_Serial0 # BDN 12657 SONAE NACIONAL 24 DE AGOSTO $ BDN !1
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 63827, LMI stat sent  63827, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 10770/0, interface broadcasts 121
+  Last input 00:00:02, output 00:00:02, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/9/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/6/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     400230 packets input, 29783673 bytes, 0 no buffer
+     Received 0 broadcasts, 2 runts, 0 giants, 0 throttles
+     9 input errors, 0 CRC, 9 frame, 0 overrun, 0 ignored, 4 abort
+     341450 packets output, 25630638 bytes, 0 underruns
+     0 output errors, 0 collisions, 91 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     2 carrier transitions
+  Timeslot(s) Used:22, Transmitter delay is 0 flags
+Serial3/0:21.509 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0455795 DLCI 509> %ra11063bd.csl.brad_Serial0.1 # BDN 12657 SONAE NACIONAL 24 DE AGOSTO $ BDN !1
+  Internet address is 172.25.252.113/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:22 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0460291> % ra11356bd.csl.brad_Serial0 # BDN 12789 MADEREIRA HERVAL $ BDN !1
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:23, Transmitter delay is 0 flags
+Serial3/0:22.222 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0460291 DLCI 222> %ra11356bd.csl.brad_Serial0 # BDN 12789 MADEREIRA HERVAL - $ BDN !1 @A
+  Internet address is 172.25.253.89/30
+  MTU 1500 bytes, BW 48 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:23 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 TS 24-27 / LP 596127> %ra22450.csl.brad_Serial0/2 # AG 0344 CONCORDIA - TITULAR $ ALTA !1
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 6030, LMI stat sent  6030, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 27852/0, interface broadcasts 26845
+  Last input 00:00:08, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1d01h
+  Input queue: 0/75/37/0 (size/max/drops/flushes); Total output drops: 255
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     544777 packets input, 60919594 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     1 input errors, 0 CRC, 1 frame, 0 overrun, 0 ignored, 1 abort
+     481255 packets output, 181518066 bytes, 36 underruns
+     36 output errors, 0 collisions, 1074 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:24-27, Transmitter delay is 0 flags
+Serial3/0:23.412 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 TS 24-27 / LP 596127 - DLCI 412> %ra22450.csl.brad_Serial0/2.1 # AG 0344 CONCORDIA - TITULAR $ ALTA !1 @A 
+  Internet address is 172.25.167.57/30
+  MTU 1500 bytes, BW 192 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:23.621 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVAD OS  165420-1 AG CONCORDIA GERALDO - 29.11.2010
+  Internet address is 172.25.255.81/30
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:27 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_453404 TS 28 / LP_736130 > %ra38734.csl.brad_Serial0/0/0 # 9258 SHOPPING MART CENTER  $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:28, Transmitter delay is 0 flags
+Serial3/0:27.302 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_453404 TS 28 - DLCI 302 > %ra38734.csl.brad_Serial0/0/0.1 # 9258 SHOPPING MART CENTER $ BDN !2 @A
+  Internet address is 172.24.230.89/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:28 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_0453404 TS 29 / LP_Pta-B > %ra053467.csl.brad_Serial0/0/0 # 27691 BDN POSTO VOLKEN  $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 63361, LMI stat sent  63361, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 297517/0, interface broadcasts 286950
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/1924/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/8/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     349444 packets input, 19394959 bytes, 0 no buffer
+     Received 0 broadcasts, 539 runts, 0 giants, 0 throttles
+     1915 input errors, 538 CRC, 1377 frame, 0 overrun, 0 ignored, 1619 abort
+     588947 packets output, 166315037 bytes, 8 underruns
+     8 output errors, 0 collisions, 249 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     2 carrier transitions
+  Timeslot(s) Used:29, Transmitter delay is 0 flags
+Serial3/0:28.628 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_0453404 TS 29 - DLCI 628 > %ra053467.csl.brad_Serial0/0/0.1 # 27691 BDN POSTO VOLKEN $ BDN !2 @A
+  Internet address is 172.24.245.185/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:29 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_0453404 TS 30 / LP 730062 > %ra053444.csl.brad_Serial0/0/0 # BDN 28074 SUPERMERCADO TEEWALD  $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 63690, LMI stat sent  63690, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 298963/0, interface broadcasts 288340
+  Last input 00:00:03, output 00:00:03, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/1081/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/8/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     350139 packets input, 19186896 bytes, 0 no buffer
+     Received 0 broadcasts, 5 runts, 0 giants, 0 throttles
+     1080 input errors, 3 CRC, 1077 frame, 0 overrun, 0 ignored, 276 abort
+     598250 packets output, 167508682 bytes, 0 underruns
+     0 output errors, 0 collisions, 139 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     2 carrier transitions
+  Timeslot(s) Used:30, Transmitter delay is 0 flags
+Serial3/0:29.627 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_0453404 TS 30 - DLCI 627 > %ra053444.csl.brad_Serial0/0/0.1 # BDN 28074 SUPERMERCADO TEEWALD $ BDN !2 @A
+  Internet address is 172.24.235.49/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:30 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0494870> %ra12225pb.csl.unib_Serial0 # PAB 4083-03 FRANGOSUL CAXIAS  $ PAB !2
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: dual fifo
+  Output queue: high size/max/dropped 0/256/0
+  Output queue: 0/128 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:31, Transmitter delay is 0 flags
+Serial3/0:30.531 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453404 / 0494870 DLCI 531> %ra12225pb.csl.unib_Serial0.1 # PAB 4083-03 FRANGOSUL CAXIAS  $ PAB !2 @A
+  Internet address is 10.243.95.57/30
+  MTU 1500 bytes, BW 32 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+  Last clearing of "show interface" counters never
+Serial3/1:0 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA PASSO FUNDO - SERASA-011 - TS 1-2- MACCORD - 01/08/2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: dual fifo
+  Output queue: high size/max/dropped 0/256/0
+  Output queue: 0/128 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:1, Transmitter delay is 0 flags
+Serial3/1:0.531 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA PASSO FUNDO - SERASA-011 - TS 1-2- MACCORD - 01/08/2011
+  Internet address is 10.243.63.89/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:1 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA PASSO FUNDO - SERASA-011 - TS 1-2- MACCORD - 01/08/2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:2, Transmitter delay is 0 flags
+Serial3/1:1.601 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_453405 TS 2 - DLCI 601 > %ra055817.csl.brad_Serial0/0/0.1 # 28845 BDN SUPERLOJA MARTINS $ BDN !2 @A
+  Internet address is 172.25.219.145/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:2 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <0453405 TS 03 /0473756> %ra17230ep.csl.bseg_Serial1 # BSEG VPN SANTO ANGELO - LINK 2 $ CLI !2
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:3, Transmitter delay is 0 flags
+Serial3/1:3 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_0453405 - TS 4 > %ra22453.csl.brad_Serial0 # 1393 AG VACARIA - TITULAR $ ALTA !1
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/4/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 2 runts, 0 giants, 0 throttles
+     4 input errors, 0 CRC, 4 frame, 0 overrun, 0 ignored, 2 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:4, Transmitter delay is 0 flags
+Serial3/1:4 is up, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 TS-05 / 0473755> %ra17230ep.csl.bseg_Serial1 # BSEG VPN CAXIAS DO SUL  - LINK 2 $ CLI !2
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 21370 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:5, Transmitter delay is 0 flags
+Serial3/1:5 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < 453405 TS 6 / LP_747591 > %ra062543.csl.brad_Serial0 # 54117 BDN SUPERMERCADO ECONOMIA BORGHETTI  $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 24236, LMI stat sent  24236, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 114652/0, interface broadcasts 110595
+  Last input 00:00:01, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/1937/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     164145 packets input, 17618824 bytes, 0 no buffer
+     Received 0 broadcasts, 253 runts, 0 giants, 0 throttles
+     1921 input errors, 237 CRC, 1684 frame, 0 overrun, 0 ignored, 965 abort
+     238162 packets output, 65493136 bytes, 0 underruns
+     0 output errors, 0 collisions, 13282 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:6, Transmitter delay is 0 flags
+Serial3/1:5.315 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < 453405 TS 6 - DLCI 315 > %ra062543.csl.brad_Serial0.1 # 54117 BDN SUPERMERCADO ECONOMIA BORGHETTI $ BDN !2 @A
+  Internet address is 172.26.218.204/31
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:6 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 453405 / 478482> %ra18861bd.csl.brad_Serial0/0/0 # BDN 13799 - 13800 AVIPAL $ BDN  !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 62868, LMI stat sent  62868, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 10550/0, interface broadcasts 68
+  Last input 00:00:01, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/2136/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/6/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     494057 packets input, 35903723 bytes, 0 no buffer
+     Received 0 broadcasts, 7 runts, 0 giants, 0 throttles
+     2106 input errors, 600 CRC, 1506 frame, 0 overrun, 0 ignored, 1202 abort
+     463033 packets output, 43037910 bytes, 30 underruns
+     30 output errors, 0 collisions, 414 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:7, Transmitter delay is 0 flags
+Serial3/1:6.527 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 453405 / 478482 DLCI 527> %ra18861bd.csl.brad_Serial0/0/0.1 # BDN 13799 - 13800 AVIPAL $ BDN !2 @A
+  Internet address is 172.24.253.177/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:7 is up, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <0453405 TS 8 / 0594337> %ra22194.csl.brad_Serial0 # AG. 0342 CAPINZAL - CCTO TITULAR $ ALTA !3
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 21370 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:8, Transmitter delay is 0 flags
+Serial3/1:7.317 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <0453405 TS 8 DLCI 317 / 0594337> %ra22194.csl.brad_Serial0.1 # AG. 0342 CAPINZAL - CCTO TITULAR $ ALTA !3 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:8 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 453405 / 0404321> %ra01806lj.csl.finv_Serial0 # FININVEST LOJA B52 CAXIAS DO SUL $ FIL !1 @ A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:9, Transmitter delay is 0 flags
+Serial3/1:8.409 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 453405 / 0404321 DLCI 409> %ra01806lj.csl.finv_Serial0.1 # 8030 FININVEST LOJA - B52 / CAXIAS DO SUL $ LOJ !2 @A
+  Internet address is 10.243.95.33/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:9 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_453405 TS 10 /728685 > %ra04117.csl.brad_Serial0 # 7404 BDN SHOPPING IGUATEMI  $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64107, LMI stat sent  64107, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 301190/0, interface broadcasts 290504
+  Last input 00:00:01, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/17/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/7/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     416944 packets input, 37183863 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     17 input errors, 3 CRC, 14 frame, 0 overrun, 0 ignored, 17 abort
+     583438 packets output, 171706649 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:10, Transmitter delay is 0 flags
+Serial3/1:9.319 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_453405 TS 10 /728685 > %ra04117.csl.brad_Serial0 # 7404 BDN SHOPPING IGUATEMI  $ BDN !2 @A
+  Internet address is 172.25.133.9/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:10 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0445287> %ra04314ag.pae.brad_Serial0/0 # AG 3194 CARLOS BARBOSA $ AGE !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: dual fifo
+  Output queue: high size/max/dropped 0/256/0
+  Output queue: 0/128 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:11, Transmitter delay is 0 flags
+Serial3/1:10.122 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0445287 DLCI 122> %ra04314ag.csl.brad_Serial0/0.1 # AG 3194 CARLOS BARBOSA $ AGE !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:11 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_453405 TS 12 > %ra22435.csl.brad_Serial0 # 908 AG NOVA PRATA - TITULAR $ ALTA !1
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:12, Transmitter delay is 0 flags
+Serial3/1:12 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # INTERFACE RESERVADA OS 157813-1_BDN PAA NICOLAU VERGUEIRO - GERALDO
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:13, Transmitter delay is 0 flags
+Serial3/1:12.212 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC
+  Last clearing of "show interface" counters never
+Serial3/1:13 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: # Interface reservada BDN 50281 PAB RANDON S/A - OS 162524-1 - DROVANDI - 03/01/2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:14, Transmitter delay is 0 flags
+Serial3/1:14 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0481935> %ra20178bd.csl.brad_Serial1 # BDN 3778 / 14239 PETTENATI S/A $ BDN !2 @A 
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 63956, LMI stat sent  63956, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 10746/0, interface broadcasts 61
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/2288/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/4/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     438570 packets input, 30680239 bytes, 0 no buffer
+     Received 0 broadcasts, 227 runts, 0 giants, 0 throttles
+     2269 input errors, 478 CRC, 1789 frame, 0 overrun, 0 ignored, 925 abort
+     368776 packets output, 42305249 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:15, Transmitter delay is 0 flags
+Serial3/1:14.632 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0481935 DLCI 632 > %ra20178bd.csl.brad_Serial1 # BDN 3778 / 14239 PETTENATI S/A $ BDN !2 @A
+  Internet address is 172.24.189.81/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:15 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 453405 / 0482121> %ra28702pb.csl.unib_Serial0/0/0 # 546 CAV IJUI $ PAB !1
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:16, Transmitter delay is 0 flags
+Serial3/1:15.546 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 453405 / 0482121 DLCI 546> %ra28702pb.csl.unib_Serial0/0/0.1 # 546 CAV IJUI $ PAB !1 @A
+  Internet address is 10.243.95.73/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:16 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0710157> %ra31930ag.sat1.brad_Serial0/0 # AG 1930 VERANOPOLIS $ AGE !1 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64105, LMI stat sent  64105, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 291015/0, interface broadcasts 280330
+  Last input 00:00:05, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/53/0 (size/max/drops/flushes); Total output drops: 1969
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/1969 (size/max total/threshold/drops) 
+     Conversations  0/25/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     2061630 packets input, 287925180 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     27 input errors, 27 CRC, 0 frame, 0 overrun, 0 ignored, 1 abort
+     2187647 packets output, 1030153465 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:17-18, Transmitter delay is 0 flags
+Serial3/1:16.333 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0710157 DLCI 333> %ra31930ag.pae.brad_Serial0/0.1 # AG 1930 VERANOPOLIS $ DPT !1 @A
+  Internet address is 172.25.254.177/30
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:18 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0480378> %ra19173bd.csl.brad_Serial1 # BDN 21847 PAROQUIA IMACULADA  CONC. $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64117, LMI stat sent  64117, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 301080/0, interface broadcasts 290394
+  Last input 00:00:01, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/17/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/8/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     384440 packets input, 22182888 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     16 input errors, 4 CRC, 12 frame, 0 overrun, 0 ignored, 2 abort
+     618729 packets output, 177580508 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:19, Transmitter delay is 0 flags
+Serial3/1:18.622 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0480378 DLCI 622> %ra19173bd.csl.brad_Serial1 # BDN 21847 PAROQUIA IMACULADA  CONC.  $ BDN !2 @A
+  Internet address is 172.24.253.209/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:19 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0450245> %ra12503bd.csl.brad_Serial0 # BDN 12503 TROMBINI EMBALAGENS IND. $ BDN !2
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:20, Transmitter delay is 0 flags
+Serial3/1:19.133 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0450245 DLCI 133> %ra06453bd.csl.brad_Serial0.1# BDN 12503 TROMBINI EMBALAGENS IND. $ BDN !2
+  Internet address is 172.25.249.65/30
+  MTU 1500 bytes, BW 32 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:20 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_453405 TS 21 > %ra22070.csl.brad_Serial0 # 1032 AG 1032 GETULIO VARGAS - TITULAR $ ALTA !1
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:21, Transmitter delay is 0 flags
+Serial3/1:20.620 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_453405 TS 21 / DLCI 620 > %mccsl01.cls.psys_Serial0.1 # 1032 AG 1032 GETULIO VARGAS - TITULAR $ ALTA !1 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:21 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0450951> %ra06497bd.csl.brad_Serial1 # BDN 20143 MASTER SONDA $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64010, LMI stat sent  64010, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 301059/0, interface broadcasts 290372
+  Last input 00:00:00, output 00:00:05, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/1/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/5/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     210155 packets input, 11704036 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     1 input errors, 0 CRC, 1 frame, 0 overrun, 0 ignored, 1 abort
+     478864 packets output, 165124397 bytes, 0 underruns
+     0 output errors, 0 collisions, 8 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:22, Transmitter delay is 0 flags
+Serial3/1:21.425 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0450951 DLCI425> %ra06497bd.csl.brad_Serial1 # BDN 20143 MASTER SONDA $ BDN !1
+  Internet address is 172.25.249.105/30
+  MTU 1500 bytes, BW 48 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:22 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0481101> %ra19180bd.csl.brad_Serial1 # BDN 13873 PETTENATI S/A $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 7/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64013, LMI stat sent  64013, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 300988/0, interface broadcasts 290302
+  Last input 00:00:01, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/603/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/8/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 2000 bits/sec, 1 packets/sec
+     699170 packets input, 36766312 bytes, 0 no buffer
+     Received 0 broadcasts, 2 runts, 0 giants, 0 throttles
+     603 input errors, 3 CRC, 600 frame, 0 overrun, 0 ignored, 305 abort
+     745363 packets output, 226378081 bytes, 0 underruns
+     0 output errors, 0 collisions, 3 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:23, Transmitter delay is 0 flags
+Serial3/1:22.623 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0481101 DLCI 623> %ra19180bd.csl.brad_Serial1 # BDN 13873 PETTENATI S/A $ BDN !2 @A
+  Internet address is 172.24.253.225/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 7/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:23 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 715956> %ra050827.csl.brad_Serial0 # BDN 14533 ESTRELA PREFEITURA $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 57327, LMI stat sent  57327, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 269608/0, interface broadcasts 260053
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/2/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/7/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     336051 packets input, 19190702 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     2 input errors, 1 CRC, 1 frame, 0 overrun, 0 ignored, 2 abort
+     560634 packets output, 159605567 bytes, 0 underruns
+     0 output errors, 0 collisions, 2264 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:24, Transmitter delay is 0 flags
+Serial3/1:23.620 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 715956 DLCI 620 > %ra050827.csl.brad_Serial0.1 # BDN 14533 ESTRELA PREFEITURA $ BDN !2 @A
+  Internet address is 172.25.42.249/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:24 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 483823> %ra20313bd.pae.brad_Serial0 # BDN 21916 AUTO POSTO CENTER POINT $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 62399, LMI stat sent  62399, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 10482/0, interface broadcasts 73
+  Last input 00:00:03, output 00:00:03, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/129/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/6/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     359478 packets input, 19154570 bytes, 0 no buffer
+     Received 0 broadcasts, 23 runts, 0 giants, 0 throttles
+     127 input errors, 20 CRC, 107 frame, 0 overrun, 0 ignored, 62 abort
+     335975 packets output, 32313507 bytes, 0 underruns
+     0 output errors, 0 collisions, 568 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:25, Transmitter delay is 0 flags
+Serial3/1:24.528 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 483823 DLCI 528> %ra20313bd.pae.brad_Serial0.1 # BDN 21916 AUTO POSTO CENTER POINT $ BDN !2 @A
+  Internet address is 172.24.250.129/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:25 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 714309> %ra21482bd.csl.brad_Serial0/0/0.1 # BDN 25551 BOURBON SHOPPING PASSO FUNDO $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64118, LMI stat sent  64118, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 301232/0, interface broadcasts 290546
+  Last input 00:00:04, output 00:00:02, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/280/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/5/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     376105 packets input, 22484633 bytes, 0 no buffer
+     Received 0 broadcasts, 259 runts, 0 giants, 0 throttles
+     279 input errors, 131 CRC, 148 frame, 0 overrun, 0 ignored, 20 abort
+     609949 packets output, 171013307 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:26, Transmitter delay is 0 flags
+Serial3/1:25.321 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 714309 DLCI 321> %ra21482bd.csl.brad_Serial0/0/0 # BDN 25551 BOURBON SHOPPING PASSO FUNDO $ BDN !2 @A
+  Internet address is 172.25.163.185/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:26 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0714337> %ra21474bd.csl.brad_Serial0/0/0 # BDN 25556 ZAFFARI CAXIAS $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 3/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 60507, LMI stat sent  60507, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 284905/0, interface broadcasts 274779
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/366/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/5/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 1000 bits/sec, 1 packets/sec
+     350654 packets input, 22233039 bytes, 0 no buffer
+     Received 0 broadcasts, 59 runts, 0 giants, 0 throttles
+     360 input errors, 70 CRC, 289 frame, 0 overrun, 0 ignored, 243 abort
+     580934 packets output, 163391214 bytes, 2 underruns
+     2 output errors, 0 collisions, 1176 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:27, Transmitter delay is 0 flags
+Serial3/1:26.726 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0714337 DLCI 726 > %ra21474bd.csl.brad_Serial0/0/0 # BDN 25556 SUPER ZAFFARI CAXIAS $ BDN !2 @A
+  Internet address is 172.25.163.209/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 3/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:27 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_453405 TS 28 > %ra22072.csl.brad_Serial0 # 1252 AG 1252 PALMEIRA DAS MISSOES - TITULAR $ ALTA !1
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:28, Transmitter delay is 0 flags
+Serial3/1:28 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_0453405 TS 29 /0451611 > %ra03884.csl.brad_Serial0 # 12517_50129 GRENDENE CALCADOS SA  $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 3/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64116, LMI stat sent  64116, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 301298/0, interface broadcasts 290613
+  Last input 00:00:03, output 00:00:03, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/52/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/6/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 1000 bits/sec, 1 packets/sec
+     386117 packets input, 23413969 bytes, 0 no buffer
+     Received 0 broadcasts, 11 runts, 0 giants, 0 throttles
+     50 input errors, 3 CRC, 47 frame, 0 overrun, 0 ignored, 21 abort
+     629676 packets output, 176547748 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:29, Transmitter delay is 0 flags
+Serial3/1:28.144 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_0453405 TS 29 - DLCI 144 > %ra03884.csl.brad_Serial0.1 # 12517_50129 GRENDENE CALCADOS SA $ BDN !2 @A
+  Internet address is 172.25.249.177/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 3/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:29 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_453405 TS 30 > %ra22414.csl.brad_Serial0 # 1299 AG NAO ME TOQUE - TITULAR $ AGE !1
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:30, Transmitter delay is 0 flags
+Serial3/1:29.129 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_453405 TS 30 / DLCI 129 > %ra22414.csl.brad_Serial0.1 # 1299 AG NAO ME TOQUE - TITULAR $ AGE !1 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:30 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0461213>%ra12277pb.csl.unib_Serial0 # PAB HOSP UNIMED NORDESTE $ PAB !1 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+  Timeslot(s) Used:31, Transmitter delay is 0 flags
+Serial3/1:30.230 is administratively down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0453405 / 0461213 DLCI 230> %ra12277pb.csl.unib_Serial0.1 # PAB HOSP UNIMED NORDESTE $ PAB !1 @A
+  Internet address is 10.243.63.29/30
+  MTU 1500 bytes, BW 32 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial4/0:0 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0460289 / 016138> %ra050888.csl.brad_Serial0 # BDN 26520 SUPERMERCADO CONSUEL $ BDN !2 @A 
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 3/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64101, LMI stat sent  64101, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 301233/0, interface broadcasts 290548
+  Last input 00:00:02, output 00:00:02, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/113/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/7/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 1000 bits/sec, 1 packets/sec
+     369217 packets input, 20327333 bytes, 0 no buffer
+     Received 0 broadcasts, 32 runts, 0 giants, 0 throttles
+     113 input errors, 14 CRC, 99 frame, 0 overrun, 0 ignored, 101 abort
+     613016 packets output, 176249354 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     12 carrier transitions
+  Timeslot(s) Used:1, Transmitter delay is 0 flags
+Serial4/0:0.626 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0460289 / 016138 DLCI 626> %ra050888.csl.brad_Serial0.1 # BDN 26520 SUPERMERCADO CONSUEL $ BDN !2 @A
+  Internet address is 172.25.236.209/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 3/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial4/0:1 is up, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0460289 /0493014> %ra11906bd.csl.brad_Serial1 # BDN 40188 INVENSYS APPLIANCE CONTROLS LTDA $ BDN !1
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 254/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 34283, LMI stat sent  34283, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 163652/0, interface broadcasts 157916
+  Last input 03:41:56, output 03:41:25, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/11758/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/12/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     289854 packets input, 14216823 bytes, 0 no buffer
+     Received 0 broadcasts, 453 runts, 0 giants, 0 throttles
+     11756 input errors, 1087 CRC, 10669 frame, 0 overrun, 0 ignored, 5513 abort
+     325107 packets output, 93126880 bytes, 0 underruns
+     0 output errors, 0 collisions, 9922 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     12 carrier transitions
+  Timeslot(s) Used:2, Transmitter delay is 0 flags
+Serial4/0:1.903 is down, line protocol is down 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0460289 /0493014 DLCI 903> %ra11906bd.csl.brad_Serial1 # BDN 40188 BDN INVENSYS APPLIANCE CONTROLS LTDA $ BDN !2 @A
+  Internet address is 172.25.249.233/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 254/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial4/0:2 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0460289 /> %ra11936bd.csl.brad_Serial1 # BDN 40192 IRWIN IND.TOOL FERRAMENTAS DO BRASIL LTDA $ BDN !2
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64089, LMI stat sent  64089, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 295497/0, interface broadcasts 284811
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/16/0 (size/max/drops/flushes); Total output drops: 4
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/23/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     313271 packets input, 16501419 bytes, 0 no buffer
+     Received 0 broadcasts, 4 runts, 0 giants, 0 throttles
+     16 input errors, 8 CRC, 8 frame, 0 overrun, 0 ignored, 1 abort
+     502637 packets output, 166783145 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     12 carrier transitions
+  Timeslot(s) Used:3, Transmitter delay is 0 flags
+Serial4/0:2.804 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0460289 / DLCI 904> %ra11936bd.csl.brad_Serial1 # BDN 40192 IRWIN IND.TOOL FERRAMENTAS DO BRASIL LTDA $ BDN !2 @A
+  Internet address is 172.24.249.17/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial4/0:3 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0460289 /> %ra20192bd.csl.brad_Serial1 # BDN 8409 PETTENATI S/A $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 3/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64100, LMI stat sent  64100, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 301031/0, interface broadcasts 290346
+  Last input 00:00:04, output 00:00:02, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/286/0 (size/max/drops/flushes); Total output drops: 7
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/5/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 1000 bits/sec, 1 packets/sec
+  5 minute output rate 0 bits/sec, 1 packets/sec
+     377834 packets input, 21906063 bytes, 0 no buffer
+     Received 0 broadcasts, 3 runts, 0 giants, 0 throttles
+     286 input errors, 1 CRC, 285 frame, 0 overrun, 0 ignored, 280 abort
+     620090 packets output, 171864992 bytes, 0 underruns
+     0 output errors, 0 collisions, 3 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     12 carrier transitions
+  Timeslot(s) Used:4, Transmitter delay is 0 flags
+Serial4/0:3.639 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0460289 / DLCI 639> %ra20192bd.csl.brad_Serial1.1 # BDN 8409 PETTENATI S/A $ BDN !2 @A
+  Internet address is 172.24.189.97/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 3/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial4/0:4 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0460289 /> %ra20179bd.csl.brad_Serial1 # BDN 11236 PRATA VIEIRA SHOPPING $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 3/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 64119, LMI stat sent  64119, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 301022/0, interface broadcasts 290336
+  Last input 00:00:02, output 00:00:03, output hang never
+  Last clearing of "show interface" counters 1w0d
+  Input queue: 0/75/28/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/6/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 1 packets/sec
+  5 minute output rate 1000 bits/sec, 1 packets/sec
+     429138 packets input, 32363796 bytes, 0 no buffer
+     Received 0 broadcasts, 14 runts, 0 giants, 0 throttles
+     27 input errors, 16 CRC, 11 frame, 0 overrun, 0 ignored, 2 abort
+     626068 packets output, 172651214 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     12 carrier transitions
+  Timeslot(s) Used:5, Transmitter delay is 0 flags
+Serial4/0:4.633 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: <E1 0460289 / DLCI 633 > %ra20179bd.csl.brad_Serial1.1 # BDN 11236 PRATA VIEIRA SHOPPING $ BDN !2 @A
+  Internet address is 172.24.189.89/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 3/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial4/0:5 is up, line protocol is up 
+  Hardware is M32X with CSU/DSU
+  Description: < E1_0460289 TS 6 / LP_744834 > %ra035956.csl.brad_Serial0/0/0 # 14814 BDN PAE IRAPURU TRANSPORTES LTDA  $ BDN !2 @A
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     re

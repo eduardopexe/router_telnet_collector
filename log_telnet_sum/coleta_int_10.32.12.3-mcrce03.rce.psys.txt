@@ -1,0 +1,2 @@
+1312276224;;up;up;BKB;up;ok;0;0;0;;0;0;100;139243879;137480626;466821353;2674039233;0.4;0.4;mcrce03.rce.psys;GigabitEthernet0/1.100;;;0;0;0;0;0;0;
+1312276224;;up;up;BKB;up;ok;;Description:<backbone>%swcrce02.rce.psys_F0/6#UplinkparaSWE02$BKB!1@C;0;;0;0;100;133069858;133274644;1237708357;2476504843;0.4;0.4;mcrce03.rce.psys;GigabitEthernet0/2.200;;;0;0;0;0;0;0;

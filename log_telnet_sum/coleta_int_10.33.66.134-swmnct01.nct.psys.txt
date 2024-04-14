@@ -1,0 +1,8 @@
+1312301123;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;swmnct01.nct.psys;GigabitEthernet1/1;;;0;0;0;0;0;0;
+1312301123;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;1459673372;8496627185;202375111916;3501831479256;0.4;0.4;swmnct01.nct.psys;GigabitEthernet1/2;;;0;0;0;0;0;0;
+1312301123;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;3057146533;10005893206;720000840106;4417738589512;0.4;0.4;swmnct01.nct.psys;GigabitEthernet1/3;;;0;0;0;0;0;0;
+1312301123;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;5013721666;12355470950;1295070167554;5498725167298;0.4;0.4;swmnct01.nct.psys;GigabitEthernet1/4;;;0;0;0;0;0;0;
+1312301123;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;13798123341;15805301852;6477619221464;5409398795510;0.4;0.4;swmnct01.nct.psys;GigabitEthernet1/5;;;0;0;0;0;0;0;
+1312301123;;up;up(connected);BKBC;up;ok;6;6;0;;0;0;100;11334133596;10373924090;1655003270982;4735491909051;0.4;0.4;swmnct01.nct.psys;GigabitEthernet1/6;;;0;0;0;0;0;0;
+1312301123;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;6422267108;7860389058;1890238308954;7385547539029;0.4;0.8;swmnct01.nct.psys;GigabitEthernet1/16;;;0;0;0;0;0;0;
+1312301123;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;swmnct01.nct.psys;GigabitEthernet1/28;;;0;0;0;0;0;0;

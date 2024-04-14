@@ -1,0 +1,2 @@
+1312320723;;up;up(connected);BKBC;up;ok;4;4;0;;0;0;100;47657501491;34332584854;10446858230650;8303640714033;1.6;0.8;swmscec01.scec.psys;GigabitEthernet1/2;;;0;0;0;0;0;0;
+1312320723;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;swmscec01.scec.psys;GigabitEthernet1/4;;;0;0;0;0;0;0;

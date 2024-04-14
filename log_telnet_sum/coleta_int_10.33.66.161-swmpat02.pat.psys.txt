@@ -1,0 +1,6 @@
+1311761087;;up;up(connected);BKBC;up;-resets - ;0;0;0;;3;0;100;248899756;1241026766;47745452508;221509741464;0.4;0.4;swmpat02.pat.psys;GigabitEthernet1/0/1;;;0;0;0;0;3;0;
+1311761087;;up;up(connected);BKBC;up;-resets - ;7;7;0;;7;0;100;119920587;1064769500;18487083077;128717676969;0.4;0.4;swmpat02.pat.psys;GigabitEthernet1/0/2;;;0;0;0;0;7;0;
+1311761087;;up;up(connected);BKBC;up;ok;0;0;0;;1;0;100;113536819;1057407332;15172270025;127931883391;0.4;0.4;swmpat02.pat.psys;GigabitEthernet1/0/3;;;0;0;0;0;1;0;
+1311761087;;up;up(connected);BKBC;up;ok;0;0;0;;1;0;100;0;0;0;0;0.4;0.4;swmpat02.pat.psys;GigabitEthernet1/0/22;;;0;0;0;0;1;0;
+1311761087;;up;up(connected);BKBC_MAN;up;ok;0;0;0;;1;0;100;0;0;0;0;0.4;0.4;swmpat02.pat.psys;GigabitEthernet1/0/25;;;0;0;0;0;1;0;
+1311761087;;up;up(connected);BKBC_MAN;up;-resets - ;0;0;0;;7;0;100;3414579394;2145102052;532226418352;574405049813;0.4;0.4;swmpat02.pat.psys;GigabitEthernet1/0/26;;;0;0;0;0;7;0;

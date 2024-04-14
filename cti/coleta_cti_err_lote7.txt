@@ -1,0 +1,1 @@
+1237824085;Mon Mar 23 13:01:25 BRT 2009;mccta03.cta.psys;ATM1/0;up /  up ;   <Cabo > % IGCTA04_Line 3.3 # Conexao Backbone IGX $ BKBC ! 1;;;;;;07:16:04;5274935;1593544701;5263811;1590996006;350;0;;0;72;344;2009-03-23 13:02:10;psys;psys;cta;BKBC; Conexao Backbone IGX ;1;100;1.2;1.2;-erros interface,;

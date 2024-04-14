@@ -1,0 +1,1 @@
+1312312247;;up;up(connected);BKBC_MAN;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;swcfns01.fns.psys;FastEthernet0/24;;;0;0;0;0;0;0;

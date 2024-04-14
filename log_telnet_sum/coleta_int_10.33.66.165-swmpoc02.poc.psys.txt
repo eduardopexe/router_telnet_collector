@@ -1,0 +1,7 @@
+1312235567;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;161046223;1564863860;50264432235;277525863940;0.4;0.4;swmpoc02.poc.psys;FastEthernet1/0/1;;;0;0;0;0;0;0;
+1312235567;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;113966890;1698200264;17362064839;217408086280;0.4;0.4;swmpoc02.poc.psys;FastEthernet1/0/2;;;0;0;0;0;0;0;
+1312235567;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;114068586;1697374041;17386937753;217296228413;0.4;0.4;swmpoc02.poc.psys;FastEthernet1/0/3;;;0;0;0;0;0;0;
+1312235567;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;160758834;1651240154;24717016531;210370308011;0.4;0.4;swmpoc02.poc.psys;FastEthernet1/0/4;;;0;0;0;0;0;0;
+1312235567;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;422225796;1545976710;59779969156;203643558052;0.4;0.4;swmpoc02.poc.psys;FastEthernet1/0/5;;;0;0;0;0;0;0;
+1312235567;;up;up(connected);BKBC_MAN;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;swmpoc02.poc.psys;GigabitEthernet1/0/1;;;0;0;0;0;0;0;
+1312235567;;up;up(connected);BKBC_MAN;up;ok;0;2;0;;0;0;100;1647190299;4252434162;378285714534;861041976355;0.4;0.4;swmpoc02.poc.psys;GigabitEthernet1/0/2;;;0;0;0;0;0;0;

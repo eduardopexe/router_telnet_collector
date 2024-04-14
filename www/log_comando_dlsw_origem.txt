@@ -1,0 +1,93 @@
+hostname;ipl0;ipl237;;
+ra00041ag.gna.brad;172.24.176.100;10.148.129.156;1343 AG SETOR CENTRAL;dlsw local-peer peer-id 172.24.176.98 keepalive 120;dlsw local-peer peer-id 10.149.0.124 keepalive 120
+ra00974bd.jve.brad;172.24.244.244;10.245.76.81;BDN 11785 POSTO ENXAIMEL;dlsw local-peer peer-id 172.24.244.244 keepalive 120;dlsw local-peer peer-id 10.245.32.24 keepalive 120
+ra00980bd.jai.brad;172.25.103.76;10.245.4.194;BDN 12336 NOSSA SENHORA DE FATIMA;dlsw local-peer peer-id 172.25.103.76;dlsw local-peer peer-id 10.217.147.56 keepalive 120
+ra01160pb.pae.brad;172.24.254.228;10.217.147.40;PAB 01 EPCOS DO BRASIL LTDA - AG 0877;dlsw local-peer peer-id 172.24.254.228;dlsw local-peer peer-id 10.148.34.236 keepalive 120
+ra011923.cdl.brad;172.26.104.228;10.245.248.133;BDN 7321 JORNAL DO COMERCIO;dlsw local-peer peer-id 172.26.104.228;dlsw local-peer peer-id 10.149.40.8 keepalive 120
+ra01285ag.cdl.brad;172.24.140.20;10.148.40.200;1975 AGP S CRISTOVAO;dlsw local-peer peer-id 172.24.140.20 keepalive 120;dlsw local-peer peer-id 10.149.3.128 keepalive 120
+ra014012.cdl.brad;172.24.116.132;10.245.248.193;1430_9873 BDN MARKET CENTER;dlsw local-peer peer-id 172.24.116.132;dlsw local-peer peer-id 10.217.128.48 keepalive 120
+ra019437.mke.brad;172.24.165.12;10.245.250.245;BDN 21689 SUPERM. SENDAS LJ 1840;dlsw local-peer peer-id 172.24.165.12;dlsw local-peer peer-id 10.245.8.38 keepalive 120
+ra035010bd.sat1.brad;172.17.63.108;10.245.19.229; BDN 28068 PAA SAO GERALDO DO BAIXIO;dlsw local-peer peer-id 172.17.63.108;dlsw local-peer peer-id 10.245.19.228 keepalive 120
+ra035022bd.sat1.brad;172.17.64.44;10.245.19.219; BDN 28055 PAA PRESIDENTE KUBITSCHEK;dlsw local-peer peer-id 172.17.64.33;dlsw local-peer peer-id 10.245.19.217 keepalive 120
+ra035094bd.sat1.brad;172.27.162.172;10.245.3.239;BDN 27801 PRAIA DO CURRAL;dlsw local-peer peer-id 172.27.162.172;dlsw local-peer peer-id 10.245.20.55 keepalive 120
+ra038121bd.sat1.brad;172.17.6.140;10.245.25.187; BDN 28345 PAA MATO RICO;dlsw local-peer peer-id 172.17.6.140;dlsw local-peer peer-id 10.245.30.0 keepalive 120
+ra039227bd.sat1.brad;172.17.66.28;10.245.40.166;BDN 27715 SUPERMERCADO BAITACA;dlsw local-peer peer-id 172.17.66.28;dlsw local-peer peer-id 10.245.15.43 keepalive 120
+ra039912.sat.brad;172.17.71.92;10.245.17.68;BDN 22006 PAB MINERACAO CURIMBABA;dlsw local-peer peer-id 172.17.71.92;dlsw local-peer peer-id 10.245.22.4 keepalive 120
+ra04115bd.csc.brad;172.25.152.132;10.245.24.121;BDN 20016 SHOPPING PANAMBI;dlsw local-peer peer-id 172.25.152.132;dlsw local-peer peer-id 10.245.48.65 keepalive 120
+ra04318.cdl.brad;172.25.105.228;10.149.0.184;0436 AG VISCONDE DE INHAUMA;dlsw local-peer peer-id 172.25.105.228 keepalive 120;dlsw local-peer peer-id 10.149.0.156 keepalive 120
+ra04348.mke.brad;172.25.144.76;10.149.1.112;1804 AG FREGUESIA;dlsw local-peer peer-id 172.25.144.76 keepalive 120;dlsw local-peer peer-id 10.149.1.108 keepalive 120
+ra04476ag.cta.brad;172.25.233.124;10.148.49.216;AGC 3000 SHOPPING TOTAL;dlsw local-peer peer-id 172.25.233.124 keepalive 120;dlsw local-peer peer-id 10.148.50.252 keepalive 120
+ra051125.tte.brad;172.24.158.36;10.149.42.244;0834 AG BALNEARIO INDAIA;dlsw local-peer peer-id 172.24.158.36;dlsw local-peer peer-id 10.245.19.32 keepalive 120
+ra051126.pae.brad;172.24.240.68;10.148.59.12;1178 AG BOQUEIRAO - CANOAS;dlsw local-peer peer-id 172.24.240.68;dlsw local-peer peer-id 10.149.42.244 keepalive 120
+ra051460.nct.brad;172.24.46.100;10.149.43.44;1201 AG AV DOM PEDRO II;dlsw local-peer peer-id 172.24.46.100;dlsw local-peer peer-id 10.245.10.252 keepalive 120
+ra051757.cens.brad;172.24.111.156;10.245.249.21;BDN 11318 HS COUTINHO IND COM LTDA;dlsw local-peer peer-id 172.24.111.156;dlsw local-peer peer-id 10.245.68.167 keepalive 120
+ra052009.nct.brad;;10.245.11.57;;dlsw local-peer peer-id 172.26.52.104;dlsw local-peer peer-id 10.245.11.57 keepalive 120
+ra052010.nct.brad;;10.245.11.57;;dlsw local-peer peer-id 172.26.52.105;dlsw local-peer peer-id 10.245.11.57 keepalive 120
+ra053981.poc.brad;172.24.8.132;10.245.8.240;27934 BDN HIPERMERCADO COMPRE BEM VILA MARQUES;dlsw local-peer peer-id 172.24.8.132;dlsw local-peer peer-id 10.245.152.20 keepalive 120
+ra054125.paa.brad;;10.245.68.160;;dlsw local-peer peer-id 172.24.11.252;dlsw local-peer peer-id 10.245.68.160 keepalive 120
+ra054189.bsa.brad;172.24.3.140;10.245.36.116;28075 BDN CASTELO FORTE MATERIAS DE CONSTRUCAO SAMAMBAIA;dlsw local-peer peer-id 172.24.3.140;dlsw local-peer peer-id 10.245.60.114 keepalive 120
+ra056658.sat3.brad;172.17.128.132;10.245.20.149; BDN 50226 PAB ITUIUTABA BIOENERGIA LTDA;dlsw local-peer peer-id 172.17.128.132;dlsw local-peer peer-id 10.245.84.192 keepalive 120
+ra056680.bsa.brad;172.25.22.204;10.217.167.16;PAB  PAB 2397-04 TRIB DE  JUSTICA DO EST. DO TOCANTINS - AG;dlsw local-peer peer-id 172.25.227.148;dlsw local-peer peer-id 10.245.9.199 keepalive 120
+ra056748.bsa.brad;172.26.246.70;10.217.167.20;PAB  PAB 2397-05 FORUM DA COMARCA DE PALMAS  - AG;dlsw local-peer peer-id 172.26.246.70 keepalive 120;dlsw local-peer peer-id 10.217.174.44 keepalive 120
+ra060451.bsa.brad;172.26.237.218;10.149.50.140;AG CAPIM DOURADO SHOPPING URB PALMAS TO;dlsw local-peer peer-id 172.17.141.221;dlsw local-peer peer-id 10.149.50.24 keepalive 120
+ra061713.mns.brad;172.26.234.114;10.148.96.64;AG 1374 AMAZONAS SHOPPING URB MANAUS;dlsw local-peer peer-id 172.26.234.114;dlsw local-peer peer-id 10.245.24.47 keepalive 120
+ra09477pb.cens.brad;172.24.106.140;10.217.131.192;PAB 03 HOSP. ADV. A.U.E.B.A. 7 DIA - AG 3019;dlsw local-peer peer-id 172.24.106.140;dlsw local-peer peer-id 10.217.147.104 keepalive 120
+ra09781bd.sdr.brad;172.25.224.36;10.245.68.27;BDN 20401POSTO GRIMALDI;dlsw local-peer peer-id 172.25.224.36;dlsw local-peer peer-id 10.217.129.64 keepalive 120
+ra11752ag.mns.brad;172.25.45.4;10.245.76.83;CISCO 2611_CASCATA   - AG 0482;dlsw local-peer peer-id 172.25.45.4;dlsw local-peer peer-id 10.245.76.83 keepalive 120
+ra12923bd.fns.brad;172.24.245.108;10.245.76.99;BDN 0850 SHOPPING BEIRA MAR - INTERFACE;dlsw local-peer peer-id 172.24.245.108;dlsw local-peer peer-id 10.245.3.193 keepalive 120
+ra14143bd.sdr.brad;172.25.215.220;10.245.252.8;BDN 20268 SUPERMERCADO G BARBOSA;dlsw local-peer peer-id 172.25.215.220;dlsw local-peer peer-id 10.149.8.8 keepalive 120
+ra14287ep.nct.brad;172.24.48.44;10.245.248.134;CASAS BAHIA - NOVA CENTRAL;dlsw local-peer peer-id 172.24.48.44 promiscuous;dlsw local-peer peer-id 10.245.248.134 keepalive 120
+ra14289ep.pat.brad;172.24.48.244;10.245.248.134;CASAS BAHIA - POP PATRIARCA;dlsw local-peer peer-id 172.25.57.244 promiscuous;dlsw local-peer peer-id 10.245.248.134 keepalive 120
+ra14790pb.mns.brad;172.25.192.164;10.217.152.200;PAB 0320-02 - PAB KEIHIN TECNOLOGIA DO BRASIL;dlsw local-peer peer-id 172.25.192.164;dlsw local-peer peer-id 10.217.152.200 keepalive 120
+ra15614.cens.brad;172.24.119.180;10.245.250.69;BDN 20856 - BDN SENDAS SAO GONCALO - INTERFACE DE;dlsw local-peer peer-id 172.24.119.180;dlsw local-peer peer-id 10.245.68.170 keepalive 120
+ra15873bd.mns.brad;172.24.190.100;10.245.48.176;BDN 13361 MOTO HONDA DA AMAZTNIA LTDA;dlsw local-peer peer-id 172.24.190.100;dlsw local-peer peer-id 10.245.2.177 keepalive 120
+ra16320bd.fns.brad;172.24.231.20;10.245.76.225;;dlsw local-peer peer-id 172.24.231.20;dlsw local-peer peer-id 10.245.17.8 keepalive 120
+ra16378bd.jve.brad;172.24.234.116;10.245.76.30;BDN 2773_25411 SHOPPING BREITHAUPT - INTERFACE;dlsw local-peer peer-id 172.24.234.116;dlsw local-peer peer-id 10.245.1.51 keepalive 120
+ra16642pb.mns.brad;172.24.75.172;10.217.132.216;PAB 30 HOSP DR. JOAO LUCIO PEREIRA MACHADO   - AG 3726;dlsw local-peer peer-id 172.24.75.172;dlsw local-peer peer-id 10.245.64.132 keepalive 120
+ra16995bd.nct.brad;172.24.45.196;10.245.14.176;BDN 13570/7235 BENEF. NIPO BRAS. DE SAO PAULO;dlsw local-peer peer-id 172.24.45.196;dlsw local-peer peer-id 10.245.16.55 keepalive 120
+ra17696bd.cens.brad;172.24.122.220;10.245.250.224;BDN 21611 SUPERM GUANABARA REALENGO;dlsw local-peer peer-id 172.24.122.220;dlsw local-peer peer-id 10.245.13.17 keepalive 120
+ra18634bd.nct.brad;172.24.38.12;10.245.7.9;BDN 9870 EXPRESSO ARACATU;dlsw local-peer peer-id 172.24.38.12;dlsw local-peer peer-id 10.245.14.116 keepalive 120
+ra18689pb.cens.brad;172.24.118.68;10.217.131.8;50 PAB-IP EDITORA O DIA (RESERVA) - AG 0026;dlsw local-peer peer-id 172.24.118.68;dlsw local-peer peer-id 10.245.244.172 keepalive 120
+ra19127bd.cas.brad;172.24.87.148;10.245.15.13;BDN 40359 INDUSTRIA GESSY LEVER;dlsw local-peer peer-id 172.24.87.148;dlsw local-peer peer-id 10.245.18.85 keepalive 120
+ra19817bd.sne.brad;172.24.130.124;10.245.6.142;BDN 10959 MAUA PLAZA SHOPPING;dlsw local-peer peer-id 172.24.130.124;dlsw local-peer peer-id 10.217.165.56 keepalive 120
+ra19819bd.sne.brad;172.24.130.132;10.245.6.142;BDN 10957 MAUA PLAZA SHOPPING;dlsw local-peer peer-id 172.24.130.132;dlsw local-peer peer-id 10.245.6.142 keepalive 120
+ra20127bd.blm.brad;172.24.201.212;10.245.84.16;BDN 22199 POSTO MONTANA;dlsw local-peer peer-id 172.24.201.212;dlsw local-peer peer-id 10.245.18.104 keepalive 120
+ra20138bd.blm.brad;172.24.198.220;10.244.254.84;BDN 12230 CONS.DE ALUMINIO DO MARANHCO;dlsw local-peer peer-id 172.24.198.220;dlsw local-peer peer-id 10.245.8.119 keepalive 120
+ra20180bd.cens.brad;172.24.111.36;10.245.249.152;BDN 3596 UNIAO FABRIL EXP -;dlsw local-peer peer-id 172.24.111.36;dlsw local-peer peer-id 10.245.28.208 keepalive 120
+ra21001bd.nri.brad;172.24.124.148;10.245.249.23;BDN 11413 LAKE SHOPPING;dlsw local-peer peer-id 172.24.124.148;dlsw local-peer peer-id 10.245.5.193 keepalive 120
+ra21150.csc.brad;172.27.102.44;10.217.148.224;PAB 1 CAMARGO CORREA SA  - AG 1555;dlsw local-peer peer-id 172.27.102.34;dlsw local-peer peer-id 10.217.151.160 keepalive 120
+ra21720bd.sdr.brad;172.25.207.36;10.245.70.66;BDN 25699 SALVADOR SHOPPING;dlsw local-peer peer-id 172.25.207.36;dlsw local-peer peer-id 10.245.70.22 keepalive 120
+ra32748ag.sat1.brad;172.27.234.60;10.148.19.97;AG 2748 PRINCESA DO OESTE;dlsw local-peer peer-id 172.27.234.49;dlsw local-peer peer-id 10.148.19.77 keepalive 120
+ra38899.cba.brad;172.26.252.50;10.245.40.77;21955 BDN POSTO STA ELISA;dlsw local-peer peer-id 172.26.252.50;dlsw local-peer peer-id 10.245.40.72 keepalive 120
+ra39133bd.sat1.brad;172.27.15.204;10.245.40.83;BDN 8562 MARISOL IND.VEST;dlsw local-peer peer-id 172.27.15.204;dlsw local-peer peer-id 10.245.40.83 keepalive 120
+ra39318bd.sat1.brad;172.27.155.76;10.245.69.108;BDN 13497 BOM PRECO SUPERMERCADO DO NORDESTE;dlsw local-peer peer-id 172.27.155.65;dlsw local-peer peer-id 10.245.69.110 keepalive 120
+rucens01.cens.brad;;10.245.76.34;;dlsw local-peer peer-id 172.26.114.51;dlsw local-peer peer-id 10.245.76.34 keepalive 120
+rucens06.cens.brad;;10.245.76.34;;dlsw local-peer peer-id 172.26.114.56;dlsw local-peer peer-id 10.245.76.34 keepalive 120
+rxctia01.ctia.brad;172.25.11.133;10.245.76.34;;dlsw local-peer peer-id 172.25.11.133 promiscuous;dlsw local-peer peer-id 10.245.76.34 keepalive 120
+rccta03.cta.brad;10.255.255.121;172.20.68.19;SITE RCE;dlsw local-peer peer-id 172.25.230.3 keepalive 120;dlsw local-peer peer-id 172.20.68.19 keepalive 120
+rccta04.cta.brad;;172.20.68.19;SITE RCE;dlsw local-peer peer-id 172.25.230.4 keepalive 120;dlsw local-peer peer-id 172.20.68.19 keepalive 120
+rccta05.cta.brad;;172.20.68.19;INTERFACE  RCCT05;dlsw local-peer peer-id 172.25.230.5 keepalive 120;dlsw local-peer peer-id 172.20.68.19 keepalive 120
+rxctia01.ctia.brad;172.25.11.133;172.20.68.19;;dlsw local-peer peer-id 172.25.11.133 promiscuous;dlsw local-peer peer-id 172.20.68.19 keepalive 120
+rctunnelgre01.igs.psys;172.25.40.172;172.20.68.19;CONCENTRADOR DE TUNEIS NET E WIMAX SITE IGS;dlsw local-peer peer-id 172.25.40.172 promiscuous vrf bbde_ags_1;dlsw local-peer peer-id 172.20.68.19 keepalive 120
+ruans01.gna.brad;172.25.14.68;10.255.255.208;ROUTER URA ANS;dlsw local-peer peer-id 172.25.14.68;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+ruata01.nct.brad;172.26.52.12;10.255.255.208; GATEWAY URAS ATA;dlsw local-peer peer-id 172.26.52.112;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+ruata01.oco.brad;172.26.46.14;10.255.255.208; GATEWAY URAS ATA;dlsw local-peer peer-id 172.26.46.114;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+ruata01.scec.brad;172.25.30.59;10.255.255.208; GATEWAY URAS ATA;dlsw local-peer peer-id 172.25.30.109;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+rubnu01.bnu.brad;172.25.14.76;10.255.255.208;INTERFACE DE;dlsw local-peer peer-id 172.25.14.76;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+rubsa01.bsa.brad;;10.255.255.208;;dlsw local-peer peer-id 172.25.179.60 keepalive 120;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+rubsa02.bsa.brad;;10.255.255.208;;dlsw local-peer peer-id 172.25.179.68 keepalive 120;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+rucens03.cens.brad;;10.255.255.208;;dlsw local-peer peer-id 172.26.114.53;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+rucens04.cens.brad;;10.255.255.208;;dlsw local-peer peer-id 172.26.114.54;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+rucens05.cens.brad;;10.255.255.208;;dlsw local-peer peer-id 172.26.114.55;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+rucsc01.csc.brad;172.25.14.84;10.255.255.208;INTERFACE DE;dlsw local-peer peer-id 172.25.14.84;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+rulda01.lda.brad;172.25.14.100;10.255.255.208;INTERFACE DE;dlsw local-peer peer-id 172.25.14.100;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+ruoco01.oco.brad;;10.255.255.208;;dlsw local-peer peer-id 172.26.46.101;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+ruoco02.oco.brad;;10.255.255.208;;dlsw local-peer peer-id 172.26.46.2;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+ruoco03.oco.brad;;10.255.255.208;;dlsw local-peer peer-id 172.26.46.3;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+ruoco04.oco.brad;;10.255.255.208;;dlsw local-peer peer-id 172.26.46.104;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+ruoco05.oco.brad;;10.255.255.208;;dlsw local-peer peer-id 172.26.46.5;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+ruoco06.oco.brad;;10.255.255.208;;dlsw local-peer peer-id 172.26.46.6;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+ruscec04.scec.brad;;10.255.255.208;;dlsw local-peer peer-id 172.25.30.104;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+ruscec05.scec.brad;;10.255.255.208;;dlsw local-peer peer-id 172.25.30.105;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+ruula01.ula.brad;172.25.14.108;10.255.255.208;INTERFACE DE;dlsw local-peer peer-id 172.25.14.108;dlsw local-peer peer-id 10.255.255.208 keepalive 120
+total:  91 cpes

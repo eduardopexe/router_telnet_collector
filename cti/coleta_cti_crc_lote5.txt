@@ -1,0 +1,1 @@
+1237824112;Mon Mar 23 13:01:52 BRT 2009;mccta02.cta.psys;ATM1/0.632;up /  up ;   <backbone> % mcbnu02.bnu.psys_S0/0/0.612 # Conexao MPLS Uplink para MCBNU02 $ BKBC ! 1 @ C;;;;;;03:39:32;3129559;560828573;4664816;2590754657;55801;0;;0;57771;43582;2009-03-23 13:02:25;psys;psys;cta;BKBC; Conexao MPLS Uplink para MCBNU02 ;1;100;32.5;21.2;crc;

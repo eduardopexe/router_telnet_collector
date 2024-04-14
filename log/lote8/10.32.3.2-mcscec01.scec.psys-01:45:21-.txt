@@ -1,0 +1,768 @@
+spawn telnet 10.32.3.2
+
+Trying 10.32.3.2...
+Connected to 10.32.3.2
+.
+Escape character is '^]'.
+
+**************************************************************************
+* ATENCAO!! ESTE SISTEMA EH RESTRITO APENAS A PESSOAS AUTORIZADAS!       *
+* Se voce nao tem ou nao sabe se tem a autorizacao necessaria para o     *
+* acesso a este sistema, desconecte-se agora.                            *
+* Toda acao executada neste sistema eh logada, podendo estas informacoes *
+* serem utilizadas para quaisquer fim definidos pelo proprietario deste. *
+* Se voce nao concorda com esta politica, desconecte-se agora.           *
+**************************************************************************
+
+Username: ps0417
+Password: 
+
+mcscec01.scec.psys>term len 0
+mcscec01.scec.psys>show int
+Vlan1 is administratively down, line protocol is down 
+  Hardware is EtherSVI, address is 000f.3522.5980 (bia 000f.3522.5980)
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive not supported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 3w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+Serial1/0/0 is up, line protocol is up 
+  Hardware is Serial
+  MTU 1500 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  188149, LMI stat recvd 188149, LMI upd recvd 0, DTE LMI up
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DTE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 31357/0, interface broadcasts 0
+  Last input 00:00:03, output 00:00:08, output hang never
+  Last clearing of "show interface" counters 3w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 199199
+ Queueing strategy: Class-based queueing
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     47731695 packets input, 8990098005 bytes, 0 no buffer
+     Received 0 broadcasts (67818 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     48105389 packets output, 14403538360 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+     RTS up, CTS up, DTR up, DCD up, DSR up
+Serial1/0/0.991 is up, line protocol is up 
+  Hardware is Serial
+  Description: *** conexao com RISCEC01 0/0.991 ***
+  Internet address is 172.20.75.201/30
+  MTU 1500 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+     47543544 packets input, 8987307362 bytes
+     48116440 packets output, 14654240014 bytes
+Serial1/0/1 is up, line protocol is up 
+  Hardware is Serial
+  Description: conexao IGSCEC01 - 26.10
+  MTU 1500 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  188149, LMI stat recvd 188149, LMI upd recvd 0, DTE LMI up
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DTE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 562875/0, interface broadcasts 343367
+  Last input 00:00:02, output 00:00:07, output hang never
+  Last clearing of "show interface" counters 3w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 842544
+ Queueing strategy: Class-based queueing
+  Output queue: 0/40 (size/max)
+  5 minute input rate 26000 bits/sec, 33 packets/sec
+  5 minute output rate 299000 bits/sec, 88 packets/sec
+     204460748 packets input, 28831779438 bytes, 0 no buffer
+     Received 0 broadcasts (455468 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 1 ignored, 0 abort
+     413403818 packets output, 166692512860 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+     RTS up, CTS up, DTR up, DCD up, DSR up
+Serial1/0/1.113 is up, line protocol is up 
+  Hardware is Serial
+  MTU 1500 bytes, BW 1544 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/1.123 is deleted, line protocol is down 
+  Hardware is Serial
+  Description: < IGPOC01_7.96 DLCI 123 > %ra10788ep.scec.hnvr_Se0/0.123 # HDI BATE-PRONTO ABC $FIL !1 @A
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+Serial1/0/1.161 is up, line protocol is up 
+  Hardware is Serial
+  Description: < IGCONS01_Porta4.11 DLCI 161 > %ra08592ag.cons.brad_Serial0/0/0.1# 0138 AG CONSOLACAO $ AGE !1 @A
+  Internet address is 172.25.32.225/30
+  MTU 1500 bytes, BW 768 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+     44483847 packets input, 4529290243 bytes
+     37718917 packets output, 13704571505 bytes
+Serial1/0/1.230 is down, line protocol is down 
+  Hardware is Serial
+  Description: *** conexao com MULTIREDE ACESSO INTERNET***
+  Internet address is 172.20.148.9/30
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/1.400 is up, line protocol is up 
+  Hardware is Serial
+  Description: <backbone> % rcscec01_s1/2.400 # Conexao MVRF com rcscec01 - VRF bbde-deptos $ BKBC ! 1 @ C
+  Internet address is 172.28.3.65/30
+  MTU 1500 bytes, BW 1024 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+     19336798 packets input, 3161474188 bytes
+     24662301 packets output, 14198991243 bytes
+Serial1/0/1.500 is up, line protocol is up 
+  Hardware is Serial
+  Description: <backbone> % rcpoc01_s1/2.500 # Conexao MVRF com rcpoc01 - VRF bbde-deptos $ BKBC ! 1 @ C
+  Internet address is 172.28.8.73/30
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+     50940532 packets input, 10052617986 bytes
+     94329412 packets output, 45590110229 bytes
+Serial1/0/1.501 is up, line protocol is up 
+  Hardware is Serial
+  Description: <backbone> % rcpoc02_s1/0.501 # Conexao MVRF com rcpoc02 - VRF bbde-deptos $ BKBC ! 1 @ C
+  Internet address is 172.28.8.77/30
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+     385050 packets input, 49654666 bytes
+     188972 packets output, 24203530 bytes
+Serial1/0/1.701 is up, line protocol is up 
+  Hardware is Serial
+  Description: <backbone> % rcmns01_s1/3.701 # Conexao MVRF com rcmns01 - VRF bbde-deptos $ BKBC ! 1 @ C
+  Internet address is 172.28.186.77/30
+  MTU 1500 bytes, BW 1024 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+     112945 packets input, 16332331 bytes
+     106804 packets output, 16392812 bytes
+Serial1/0/1.709 is administratively down, line protocol is down 
+  Hardware is Serial
+  Description: < IGCPAT02_Porta31.6 DLCI 709 > %ra04689ag.mbi.brad_Serial0/0/1.1 # 1432 AG AV ADOLFO PINHEIRO $ CAP !1 @A
+  Internet address is 172.25.35.129/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/1.800 is down, line protocol is down 
+  Hardware is Serial
+  Description: *** TESTE LAB HDI - GERENCIA ***
+  Internet address is 10.34.3.45/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/1.810 is administratively down, line protocol is down 
+  Hardware is Serial
+  Description: *** TESTE LAB HDI - VPN ADM-PRIME***
+  Internet address is 10.35.3.1/30
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/1.820 is down, line protocol is down 
+  Hardware is Serial
+  Description: *** TESTE LAB HDI - VPN LAB-HANNOVER ***
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/1.991 is up, line protocol is up 
+  Hardware is Serial
+  Description: *** conexao com RIOCO01 0/0.991 ***
+  Internet address is 172.20.75.121/30
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+     78800726 packets input, 11140997060 bytes
+     123002529 packets output, 93252933744 bytes
+Serial1/0/1.996 is down, line protocol is down 
+  Hardware is Serial
+  Description: *** conexao com RIHORT01 0/0.996 ***
+  Internet address is 172.20.76.209/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/1.999 is administratively down, line protocol is down 
+  Hardware is Serial
+  Description: *** conexao com filial lab cimpor ***
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/1.1000 is up, line protocol is up 
+  Hardware is Serial
+  Description: *** conexao com filial Blumenau II - Hannover re05217ep.scec.hnvr***
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 37/255, rxload 3/255
+  Encapsulation FRAME-RELAY
+     0 packets input, 0 bytes
+     31355 packets output, 11977610 bytes
+Serial1/0/2 is up, line protocol is up 
+  Hardware is Serial
+  Description: < SPO-SPO-IPLPRI 0140 > %ra41350pa.scec.rccf_Se0/0/0 # RCCF - APLIGRAF - SP - VD - router 1 $rccf !1  
+  MTU 1500 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 188193, LMI stat sent  188193, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 198357/0, interface broadcasts 135649
+  Last input 00:00:03, output 00:00:03, output hang never
+  Last clearing of "show interface" counters 3w0d
+  Input queue: 0/75/0/1 (size/max/drops/flushes); Total output drops: 0
+ Queueing strategy: Class-based queueing
+  Output queue: 0/40 (size/max)
+  5 minute input rate 5000 bits/sec, 4 packets/sec
+  5 minute output rate 6000 bits/sec, 5 packets/sec
+     20912045 packets input, 2776632977 bytes, 0 no buffer
+     Received 0 broadcasts (135719 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     14 input errors, 10 CRC, 0 frame, 2 overrun, 0 ignored, 2 abort
+     35728184 packets output, 13378482124 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+     RTS up, CTS up, DTR up, DCD up, DSR up
+Serial1/0/2.610 is up, line protocol is up 
+  Hardware is Serial
+  Description: < LPA / LPB DLCI 610 > %ra41350pa.scec.rccf_Se0/0/0.610 # VRF GERENCIA - APLIGRAF - SP - VD - router 1 $rccf !1 @A
+  Internet address is 172.23.52.57/30
+  MTU 1500 bytes, BW 8 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+     759828 packets input, 126838899 bytes
+     752114 packets output, 114991614 bytes
+Serial1/0/2.634 is deleted, line protocol is down 
+  Hardware is Serial
+  Description: < LPA / LPB DLCI 634 > %ra41350pa.scec.rccf_Se0/0/0.634 # VRF BOVESPA - APLIGRAF - SP - VD 1 - router 1 $bvsp !1 @A
+  MTU 1500 bytes, BW 508 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+Serial1/0/2.635 is up, line protocol is up 
+  Hardware is Serial
+  Description: < LPA / LPB DLCI 635 > %ra41350pa.scec.rccf_Se0/0/0.635 # VRF BMF - APLIGRAF - SP - VD 1 - router 1 $bmf !1 @A
+  Internet address is 172.18.191.25/30
+  MTU 1500 bytes, BW 1020 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+     19964012 packets input, 2647157046 bytes
+     34787866 packets output, 13260933025 bytes
+Serial1/0/3 is up, line protocol is up 
+  Hardware is Serial
+  Description: <backbone> % IGSCEC02_32.11 # Acesso MVRF Departamentos Bradesco $ BKBC !2 @B 
+  MTU 1500 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  188150, LMI stat recvd 188150, LMI upd recvd 0, DTE LMI up
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DTE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 1892127/0, interface broadcasts 1766670
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 3w0d
+  Input queue: 0/75/23/0 (size/max/drops/flushes); Total output drops: 470386
+ Queueing strategy: Class-based queueing
+  Output queue: 0/40 (size/max)
+  5 minute input rate 1000 bits/sec, 1 packets/sec
+  5 minute output rate 6000 bits/sec, 3 packets/sec
+     38220148 packets input, 2415263985 bytes, 0 no buffer
+     Received 0 broadcasts (205527 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 2 ignored, 0 abort
+     35071004 packets output, 8559499920 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+     RTS up, CTS up, DTR up, DCD up, DSR up
+Serial1/0/3.103 is up, line protocol is up 
+  Hardware is Serial
+  Description: < IGSCEC02_32.11 DLCI 103 > % rcrpo04.rpo.unib_Se0/0.103 # CONEXAO RCRPO04 - MULTI-VRF HDI SEGUROS $ BKBC ! 1
+  Internet address is 172.20.153.25/30
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+     222320 packets input, 13556719 bytes
+     1034947 packets output, 431247210 bytes
+Serial1/0/3.113 is up, line protocol is up 
+  Hardware is Serial
+  Description: < IGSCEC02_32.11 DLCI 113 > %ra10705ep.soc.hnvr_Serial0/0.113 # HDI SEGUROS - SOROCABA $ FIL !1 @A
+  Internet address is 172.20.152.201/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+     35152846 packets input, 3226891886 bytes
+     14729676 packets output, 8538461942 bytes
+Serial1/0/3.146 is deleted, line protocol is down 
+  Hardware is Serial
+  Description: < IGCAS03_14.169 DLCI 146 > % ra29505ep.cas.citi_Serial0/1/0.146 # CITIFINANCIAL LIMEIRA $ EMP !1 @B
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+Serial1/0/3.200 is administratively down, line protocol is down 
+  Hardware is Serial
+  Description: # INTERFACE VAGA
+  MTU 1500 bytes, BW 972 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/3.328 is down, line protocol is down 
+  Hardware is Serial
+  Description: <backbone> % masts02_s1/0.158 # Conexao MVRF com masts02 - VRF bbde-deptos $ BKBC ! 1 @ C
+  Internet address is 172.28.21.69/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/3.500 is up, line protocol is up 
+  Hardware is Serial
+  Description: <backbone> % rcgja01_s1/0.500 # Conexao MVRF com rcgja01 - VRF bbde-deptos $ BKBC ! 1 @ C
+  Internet address is 172.28.22.69/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+     122614 packets input, 17698175 bytes
+     105179 packets output, 16248650 bytes
+Serial1/0/3.501 is down, line protocol is down 
+  Hardware is Serial
+  Description: <backbone> % rcbru01_s0/0.501 # Conexao MVRF com rcbru01 - VRF bbde-deptos $ BKBC ! 1 @ C
+  Internet address is 172.28.34.69/30
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/3.530 is down, line protocol is down 
+  Hardware is Serial
+  Description: CONEXAO COM AMBIENTE SATELITE CIMPOR
+  Internet address is 172.20.139.89/30
+  MTU 1500 bytes, BW 1544 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/3.600 is up, line protocol is up 
+  Hardware is Serial
+  Description: <backbone> % rcbru02_s0/0.600 # Conexao MVRF com rcbru02 - VRF bbde-deptos $ BKBC ! 1 @ C
+  Internet address is 172.28.34.77/30
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+     67811 packets input, 5153436 bytes
+     99898 packets output, 15784338 bytes
+Serial1/0/3.617 is administratively down, line protocol is down 
+  Hardware is Serial
+  Description: <SPO BM9 SPO LV5 DPHT 0001> %ra04629ag_Serial0/1/0.1 # 0297 AG CIDADE VARGAS $ CAP !2 @B
+  Internet address is 172.25.33.129/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/4 is up, line protocol is up 
+  Hardware is Serial
+  Description: <BRSPO-BRSPO CES 6209> %re10840mz.scec.cimp_Serial0/1/1.2 # CIMPOR - MATRIZ INTERNET $ MTZ !1
+  MTU 1500 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 9/255, rxload 1/255
+  Encapsulation FRAME-RELAY, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 188205, LMI stat sent  188205, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 99192/0, interface broadcasts 67838
+  Last input 00:00:03, output 00:00:03, output hang never
+  Last clearing of "show interface" counters 3w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 107
+ Queueing strategy: Class-based queueing
+  Output queue: 0/40 (size/max)
+  5 minute input rate 15000 bits/sec, 9 packets/sec
+  5 minute output rate 73000 bits/sec, 17 packets/sec
+     181952719 packets input, 57284423618 bytes, 0 no buffer
+     Received 0 broadcasts (67815 IP multicasts)
+     0 runts, 29 giants, 0 throttles 
+     45982 input errors, 44884 CRC, 0 frame, 1052 overrun, 0 ignored, 17 abort
+     177050682 packets output, 123831409685 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+     RTS up, CTS up, DTR up, DCD up, DSR up
+Serial1/0/4.210 is up, line protocol is up 
+  Hardware is Serial
+  Description: <BRSPO-BRSPO CES 6209> %re10840mz.scec.cimp_Serial0/1/1.2 # CIMPOR - MATRIZ INTERNET $ MTZ !1 @A
+  Internet address is 172.20.139.81/30
+  MTU 1500 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 9/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+     181764506 packets input, 57281788908 bytes
+     176862513 packets output, 124029728408 bytes
+Serial1/0/5 is up, line protocol is up 
+  Hardware is Serial
+  Description: < CABO > %IGSCEC01_26.2 # PROJETO RCCF - BOVESPA/BMF $ rccf !1 @A
+  MTU 1500 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  188149, LMI stat recvd 188149, LMI upd recvd 0, DTE LMI up
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DTE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 396657/0, interface broadcasts 271237
+  Last input 00:00:09, output 00:00:03, output hang never
+  Last clearing of "show interface" counters 3w0d
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+ Queueing strategy: Class-based queueing
+  Output queue: 0/40 (size/max)
+  30 second input rate 0 bits/sec, 0 packets/sec
+  30 second output rate 0 bits/sec, 0 packets/sec
+     188149 packets input, 3261266 bytes, 0 no buffer
+     Received 0 broadcasts (0 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     584805 packets output, 81275562 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+     RTS up, CTS up, DTR up, DCD up, DSR up
+Serial1/0/5.550 is deleted, line protocol is down 
+  Hardware is Serial
+  Description: < IGOCO03_32.5 / IGSCEC01 26.2 DLCI 550 >%ra41072pa.scec.rccf_Se0/0/0.550 # VRF GERENCIA - BRADESCO - SP - PLD - router 2 $ bmf !1 @A
+  MTU 1500 bytes, BW 8 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+Serial1/0/5.572 is deleted, line protocol is down 
+  Hardware is Serial
+  Description: < IGOCO03_32.5 / IGSCEC01 26.2  DLCI 572 > %ra41072pa.scec.rccf_Se0/0/0.572 # VRF BMF - BRADESCO - BBI - SP - PLD - router 2 $bmf !1 @A
+  MTU 1500 bytes, BW 2040 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+Serial1/0/5.601 is administratively down, line protocol is down 
+  Hardware is Serial
+  Description: <backbone> % rcsrr02_s0/0.601 # Conexao MVRF com rcsrr02 - VRF bbde-deptos $ BKBC ! 1 @ C
+  Internet address is 172.28.37.69/30
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/5.710 is up, line protocol is up 
+  Hardware is Serial
+  Description: < CABO DLCI 710 > %ra050461.scec.rccf_Se0/0/0.710 # VRF GERENCIA - UNIBANCO INVESTSHOP 2 - SP - router 1 $rccf !1 @A
+  Internet address is 172.23.68.57/30
+  MTU 1500 bytes, BW 8 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+     0 packets input, 0 bytes
+     99183 packets output, 18645873 bytes
+Serial1/0/5.732 is up, line protocol is up 
+  Hardware is Serial
+  Description: < LPA / LPB DLCI 732 > %ra050461.scec.rccf_Se0/0/0.732 # VRF BOVESPA - UNIBANCO INVESTSHOP 2 - SP - TD - router 1 $bvsp !1 @A
+  Internet address is 172.23.68.9/30
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+     0 packets input, 0 bytes
+     99157 packets output, 19998417 bytes
+Serial1/0/5.733 is up, line protocol is up 
+  Hardware is Serial
+  Description: < LPA / LPB DLCI 733 > %ra050461.scec.rccf_Se0/0/0.733 # VRF BOVESPA - UNIBANCO INVESTSHOP 3 - SP - VD - router 1  $bvsp !1 @A
+  Internet address is 172.23.68.17/30
+  MTU 1500 bytes, BW 508 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+     0 packets input, 0 bytes
+     99163 packets output, 19999173 bytes
+Serial1/0/5.734 is up, line protocol is up 
+  Hardware is Serial
+  Description: < LPA / LPB DLCI 734 > %ra050461.scec.rccf_Se0/0/0.734 # VRF BOVESPA - UNIBANCO INVESTSHOP 3 - SP - router 1 $bvsp !1 @A
+  Internet address is 172.23.68.25/30
+  MTU 1500 bytes, BW 508 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+     0 packets input, 0 bytes
+     99154 packets output, 19998129 bytes
+Serial1/0/5.991 is down, line protocol is down 
+  Hardware is Serial
+  Description: *** conexao com router VANGUARD - LAB COP ***
+  Internet address is 172.20.75.97/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/6 is up, line protocol is up 
+  Hardware is Serial
+  Description: < CABO > % IGSCEC02_30.2 # CONEXAO BACKBONE IGX $ BKBC ! 1
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  188150, LMI stat recvd 188150, LMI upd recvd 0, DTE LMI up
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DTE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 1809531/12, interface broadcasts 1486562
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 3w0d
+  Input queue: 0/75/28/0 (size/max/drops/flushes); Total output drops: 39346
+ Queueing strategy: Class-based queueing
+  Output queue: 0/40 (size/max)
+  30 second input rate 7000 bits/sec, 11 packets/sec
+  30 second output rate 20000 bits/sec, 10 packets/sec
+     13347125 packets input, 891528925 bytes, 0 no buffer
+     Received 0 broadcasts (421435 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     14000692 packets output, 1612025373 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+     RTS up, CTS up, DTR up, DCD up, DSR up
+Serial1/0/6.108 is down, line protocol is down 
+  Hardware is Serial
+  Description: %ra21208bd.sjc.brad.scj.brad _Serial0/0/0 # BDN 21600 CARREFOUR S J DOS CAMPOS $ BDN !2 @A
+  Internet address is 172.25.83.217/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/6.110 is down, line protocol is down 
+  Hardware is Serial
+  Description: < LPA / LPB DLCI 110 > %ra40900pa.igs.rccf_Se0/0/0.110 # VRF GERENCIA - MORGAN 2 - SP - router 1 $rccf !1 @A
+  Internet address is 172.23.220.57/30
+  MTU 1500 bytes, BW 8 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/6.115 is deleted, line protocol is down 
+  Hardware is Serial
+  Description: < LPA / LPB DLCI 115 > %ra40900pa.igs.rccf_Se0/0/0.115 # VRF BOVESPA - MORGAN 2 - SP - router 1 $bvsp !1 @A
+  MTU 1500 bytes, BW 504 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+Serial1/0/6.120 is down, line protocol is down 
+  Hardware is Serial
+  Description: %rxctia02.cti.brad_Serial4/7 DLCI 101 # BDN 3052 ELDORADO INDS.PLASTICAS $ BDN !1 @A
+  Internet address is 172.24.21.153/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/6.139 is up, line protocol is up 
+  Hardware is Serial
+  Description: %ra17626bd.pat.brad_Serial1 # BDN 3092 KRUPP METAL - FORJARIA $ BDN !2 @A
+  Internet address is 172.24.59.25/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     1773206 packets input, 101009260 bytes
+     1207050 packets output, 108837906 bytes
+Serial1/0/6.260 is up, line protocol is up 
+  Hardware is Serial
+  Description: < IGSRR02 - 5.3 SRR BD SRR QN 02048K 005 TS 10-13 /LP B DLCI 260 > %ra10847ep.srr.hnvr_Se0/0.260 # HDI FILIAL SGO JOSE RIO PRETO $ FIL !1 @A
+  Internet address is 172.20.154.225/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     4305483 packets input, 254114842 bytes
+     5057481 packets output, 823988510 bytes
+Serial1/0/6.325 is up, line protocol is up 
+  Hardware is Serial
+  Description: %ra050256bd.srr.brad_Serial0.1 # BDN 14397 PAE 08 - CEREAL MARANHAO LTDA $ BDN !1 @A
+  Internet address is 172.25.165.185/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     890534 packets input, 56423865 bytes
+     835465 packets output, 67702786 bytes
+Serial1/0/6.395 is up, line protocol is up 
+  Hardware is Serial
+  Description: %ra19773bd.pat.brad_Serial1 # BDN 12206 SADIA SA $ BDN !2 @A
+  Internet address is 172.25.83.193/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     395855 packets input, 29866123 bytes
+     385415 packets output, 34059353 bytes
+Serial1/0/6.404 is up, line protocol is up 
+  Hardware is Serial
+  Description: %ra19905bd.jai.brad_Serial1 # BDN 812/40325 CORREIAS MERCUR $ BDN !2 @A
+  Internet address is 172.24.96.249/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     1119161 packets input, 87599119 bytes
+     1056205 packets output, 116946503 bytes
+Serial1/0/6.406 is up, line protocol is up 
+  Hardware is Serial
+  Description: %ra19924bd.jai.brad_Serial1 # BDN 8294 VITI VINICOLA CERESER $ BDN !2 @A
+  Internet address is 172.24.96.9/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     1321369 packets input, 94189393 bytes
+     1227777 packets output, 122659925 bytes
+Serial1/0/6.417 is up, line protocol is up 
+  Hardware is Serial
+  Description: %ra13137bd.cas.brad_Serial1 # BDN 2763 - ATM AUTO P. COMPETRO $ BDN !2 @A 
+  Internet address is 172.25.102.177/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     1 packets input, 56 bytes
+     113415 packets output, 16728421 bytes
+Serial1/0/6.452 is up, line protocol is up 
+  Hardware is Serial
+  Description: %ra17152bd.jai.brad_Serial1 # BDN 2081 COND. RES. MOR. SE  $ BDN !2 @A
+  Internet address is 172.24.85.233/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     1202365 packets input, 82952813 bytes
+     1154480 packets output, 94056672 bytes
+Serial1/0/6.573 is administratively down, line protocol is down 
+  Hardware is Serial
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/6.663 is administratively down, line protocol is down 
+  Hardware is Serial
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/6.675 is administratively down, line protocol is down 
+  Hardware is Serial
+  Description: # INTERFACE VAGA #
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/6.679 is administratively down, line protocol is down 
+  Hardware is Serial
+  Description: < IGSCEC03_14.59 DLCI 679 E1 SPOBM9SPOIG02048K012 TS 29-30/SPOBM95POJYSDPAT1 > % ra08331ag.scec.brad_Serial0/0.1 # AG 0107 - AG STO. AMARO $ CAP !1 @A
+  Internet address is 172.25.27.177/30
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/6.683 is administratively down, line protocol is down 
+  Hardware is Serial
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     0 packets input, 0 bytes
+     0 packets output, 0 bytes
+Serial1/0/6.808 is up, line protocol is up 
+  Hardware is Serial
+  Description: %ra20153bd.jai.brad_Serial0 # BDN 13964 PLASCAR $ BDN !2 @A
+  Internet address is 172.24.185.1/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     1156422 packets input, 100501203 bytes
+     1089170 packets output, 149673371 bytes
+Serial1/0/6.826 is up, line protocol is up 
+  Hardware is Serial
+  Description: %ra17858bd.oco.brad_Serial1 # BDN 13731 IGL INDUSTRIAL LTDA $ BDN !2 @A
+  Internet address is 172.24.86.113/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     0 packets input, 0 bytes
+     113423 packets output, 16728869 bytes
+Serial1/0/6.921 is up, line protocol is up 
+  Hardware is Serial
+  Description: %ra20797bd.jai.brad_Serial5/1:21 # BDN 2518 EXTRA ITATIBA $ BDN !1 @A
+  Internet address is 172.25.42.201/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 79/255, rxload 27/255
+  Encapsulation FRAME-RELAY IETF
+     961102 packets input, 79078092 bytes
+     793138 packets output, 70698367 bytes
+Serial1/0/7 is up, line protocol is up 
+  Hardware is Serial
+  Description: < CABO > % IGSCEC02_30.11 # CONEXAO BACKBONE IGX $ BKBC ! 1
+  MTU 1500 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  188149, LMI stat recvd 188149, LMI upd recvd 0, DTE LMI up
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DTE
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 731019/1, interface broadcasts 576116
+  Last input 00:00:04, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 3w0d
+  Input queue: 0/75/1929/0 (size/max/drops/flushes); Total output drops: 694
+ Queueing strategy: Class-based queueing
+  Output queue: 0/40 (size/max)
+  5 minute input rate 3000 bits/sec, 3 packets/sec
+  5 minute output rate 13000 bits/sec, 3 packets/sec
+     10386822 packets input, 1909143495 bytes, 0 no buffer
+     Received 0 broadcasts (267264 IP multicasts)
+     0 runts, 0 giants, 0 throttles 
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     8864443 packets output, 4736636793 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions
+     RTS up, CTS up, DTR up, DCD up, DSR up
+Serial1/0/7.500 is down, line protocol is down 
+  Hardware is Serial
+  Description: <backbone> % rccas07_s0/1.500 # Conexao MVRF com rccas07 - VRF bbde-deptos $ BK

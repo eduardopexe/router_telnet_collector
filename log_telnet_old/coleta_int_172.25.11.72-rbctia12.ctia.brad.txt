@@ -1,0 +1,24 @@
+1288104224;;up;up(connected);BKB;up;ok;0;0;0;;0;0;100;79359501;98140533;12224448157;20446379396;0.4;0.8;rbctia12.ctia.brad;GigabitEthernet7/1;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;administratively down;down(disabled);-;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet7/2;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;up;up(connected);BKB;up;ok;0;0;0;;0;0;100;3967502;1587;2369168656;296769;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet8/1;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;administratively down;down(disabled);-;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet8/2;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;down;down(notconnect);-;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/1;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;down;down(notconnect);-;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/2;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;administratively down;down(disabled);BKB;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/3;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;administratively down;down(disabled);BKB;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/4;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;administratively down;down(disabled);BKB;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/5;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;up;up(connected);BKB;up;ok;0;0;0;;0;0;100;79898;1145159;54494799;905552036;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/6;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;up;up(connected);BKB;up;ok;0;0;0;;0;0;100;76281;1146530;53846904;905629879;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/7;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;administratively down;down(disabled);-;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/8;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;administratively down;down(disabled);-;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/9;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;up;up(connected);BKB;up;ok;0;0;0;;0;0;100;41962090;37539072;9886654455;4800318291;4.3;1.6;rbctia12.ctia.brad;GigabitEthernet9/10;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;up;up(connected);BKB;up;ok;0;0;0;;0;0;100;33841777;35390793;7366839143;4491942456;3.1;1.6;rbctia12.ctia.brad;GigabitEthernet9/11;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;up;up(connected);BKB;up;ok;0;0;0;;0;0;100;1164159;1723831;173523131;1047250979;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/12;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;administratively down;down(disabled);-;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/13;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;administratively down;down(disabled);-;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/14;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;administratively down;down(disabled);-;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/15;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;administratively down;down(disabled);-;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/16;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;administratively down;down(disabled);-;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/17;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;administratively down;down(disabled);-;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/18;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;administratively down;down(disabled);-;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbctia12.ctia.brad;GigabitEthernet9/19;1288104224;2010-10-26 12:43:44;0;0;0;0;0;0;
+1288104224;;administratively down;down(disabled);-;down;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;rbct

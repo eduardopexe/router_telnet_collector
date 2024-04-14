@@ -1,0 +1,22 @@
+mcjve01.jve.psys:10.32.57.3:lote3
+mcjai02.jai.psys:10.32.42.2:lote3
+mcigs01.igs.psys:10.32.17.1:lote3
+mcmke03.mke.psys:10.32.25.3:lote3
+swcfns02.fns.psys:10.33.56.62:lote3
+mcfns01.fns.psys:10.32.56.3:lote3
+swcmga01mga.psys:10.33.60.62 :lote3
+mcmbi02.mbi.psys:10.32.24.2:lote3
+ribseg01.bseg.psys:172.20.75.52:lote3
+ricine01.cine.psys:172.20.75.196:lote3
+mcgna02.gna.psys:10.32.68.2:lote3
+swcrpo02.rpo.psys:10.33.36.94:lote3
+swmscec01.scec.psys:10.33.66.130:lote3
+swmpat01.pat.psys:10.33.66.129:lote3
+mccta02.cta.psys:10.32.15.2:lote3
+swccas01.cas.psys:10.33.28.62:lote3
+swcbhe01.bhe.psys:10.33.14.30:lote3
+swmigs01.igs.psys:10.33.66.166:lote3
+mcbsa02.bsa.psys:10.32.13.2:lote3
+mcbru04.bru.psys:10.32.37.4:lote3
+mcigs03.igs.psys:10.32.17.4:lote3
+mcjai01.jai.psys:10.32.42.3:lote3

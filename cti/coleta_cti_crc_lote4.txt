@@ -1,0 +1,1 @@
+1237824114;Mon Mar 23 13:01:53 BRT 2009;mbscec01.scec.psys;ATM8/0/0;up /  up ;   <CABO> % IGSCEC02_18.4 # Conexao Backbone IGSCEC02 $ BKBC !1;;;;;;07:14:59;27771409;4681611800;25481100;11372977948;5486;0;;0;0;5466;2009-03-23 13:01:58;psys;psys;scec;BKBC; Conexao Backbone IGSCEC02 ;1;100;0.4;0.4;crc;

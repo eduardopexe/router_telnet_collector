@@ -1,0 +1,9 @@
+1312320742;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;475641767;1620963456;147520255682;295368078269;0.4;0.4;swmigs02.igs.psys;FastEthernet1/0/1;;;0;0;0;0;0;0;
+1312320742;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;swmigs02.igs.psys;FastEthernet1/0/3;;;0;0;0;0;0;0;
+1312320742;;up;up(connected);BKBC;up;-resets - ;1;1;0;;5;0;100;110928266;1757524982;17771186114;241483099634;0.4;0.4;swmigs02.igs.psys;FastEthernet1/0/4;;;0;0;0;0;5;0;
+1312320742;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;511467187;1540505835;100511063446;203882525329;0.4;0.4;swmigs02.igs.psys;FastEthernet1/0/5;;;0;0;0;0;0;0;
+1312320742;;up;up(connected);BKBC;up;-resets - ;0;0;0;;3;0;100;171547872;726273100;25943486704;90097234352;0.4;0.4;swmigs02.igs.psys;FastEthernet1/0/6;;;0;0;0;0;3;0;
+1312320742;;up;up(connected);BKBC_MAN;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;swmigs02.igs.psys;GigabitEthernet1/0/1;;;0;0;0;0;0;0;
+1312320742;;up;up(connected);BKBC_MAN;up;ok;0;1;0;;0;0;100;2764696077;3445055877;524989893620;801739340096;0.4;0.4;swmigs02.igs.psys;GigabitEthernet1/0/2;;;0;0;0;0;0;0;
+1312320742;;up;up(connected);BKBC;up;ok;0;0;0;;0;0;100;126752645;1820242226;20652693643;238411963859;0.4;0.4;swmigs02.igs.psys;GigabitEthernet1/1/1;;;0;0;0;0;0;0;
+1312320742;;up;up(connected);BKBC;up;-resets - ;0;0;0;;4;0;100;6968426554;4728552709;2659949515771;1106254273081;0.4;0.4;swmigs02.igs.psys;GigabitEthernet1/1/2;;;0;0;0;0;4;0;

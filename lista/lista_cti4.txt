@@ -1,0 +1,22 @@
+swcpaa01.paa.psys: 10.33.92.30:lote4
+mcblm04.blm.psys:10.32.76.4:lote4
+mctte01.tte.psys:10.32.41.3:lote4
+mcpae01.pae.psys:10.32.16.1:lote4
+mcbsa01.bsa.psys:10.32.13.1:lote4
+mcplt02.plt.psys:10.32.64.2:lote4
+swmpoc02.poc.psys:10.33.66.165:lote4
+mcsdr05.sdr.psys:10.32.11.5:lote4
+mcblm02.blm.psys:10.32.76.2:lote4
+swccas02.cas.psys:10.33.28.30:lote4
+swccsc01.csc.psys:10.33.59.62:lote4
+mccta03.cta.psys:10.32.15.5:lote4
+mcnct03.nct.psys:10.32.85.3:lote4
+mccbf01.cbf.psys:10.32.52.3:lote4
+swcula01.ula.psys:10.33.65.30:lote4
+mcmke04.mke.psys:10.33.25.4:lote4
+mccba02.cba.psys:10.32.77.2:lote4
+swcsjc01.sjc.psys:10.33.43.30:lote4
+swcenc01.enc.psys:10.33.29.30:lote4
+mcsts04.sts.psys:10.32.40.6:lote4
+mcsjc02.sjc.psys:10.32.43.2:lote4
+swcbhe02.bhe.psys:10.33.14.62:lote4

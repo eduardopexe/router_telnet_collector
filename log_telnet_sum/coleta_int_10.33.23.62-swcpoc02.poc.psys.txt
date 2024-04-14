@@ -1,0 +1,2 @@
+1312298006;;up;up(connected);BKBC_MAN;up;ok;0;0;0;;0;0;100;0;0;0;0;0.4;0.4;swcpoc02.poc.psys;FastEthernet0/21;;;0;0;0;0;0;0;
+1312298006;;up;up(connected);BKBC_MAN;up;-resets - ;179;575;0;;4;0;100;4037702073;3152262432;799693220649;1505216679176;3.9;5.1;swcpoc02.poc.psys;FastEthernet0/22;;;0;0;0;0;4;0;

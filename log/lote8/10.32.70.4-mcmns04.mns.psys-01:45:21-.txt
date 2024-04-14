@@ -1,0 +1,2919 @@
+spawn telnet 10.32.70.4
+
+Trying 10.32.70.4...
+Connected to 10.32.70.4
+.
+Escape character is '^]'.
+
+
+**************************************************************************
+
+* ATENCAO!! ESTE SISTEMA EH RESTRITO APENAS A PESSOAS AUTORIZADAS!       *
+
+* Se voce nao tem ou nao sabe se tem a autorizacao necessaria para o     *
+
+* acesso a este sistema, desconecte-se agora.                            *
+
+* Toda acao executada neste sistema eh logada, podendo estas informacoes *
+
+* serem utilizadas para quaisquer fim definidos pelo proprietario deste. *
+
+* Se voce nao concorda com esta politica, desconecte-se agora.           *
+
+**************************************************************************
+
+
+
+User Access Verification
+
+Username: ps0417
+Password: 
+
+mcmns04.mns.psys>term len 0
+mcmns04.mns.psys>show int
+GigabitEthernet0/1 is up, line protocol is up 
+  Hardware is MV64460 Internal MAC, address is a8b1.d4c9.dc1b (bia a8b1.d4c9.dc1b)
+  Description: <backbone> %mcmns04.mns.psys_Gi0/1 # Uplink para SWCMNS01 $ BKB ! 1 @ C
+  Internet address is 10.33.70.4/27
+  MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full-duplex, 100Mb/s, media type is RJ45
+  output flow-control is XON, input flow-control is XON
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: Class-based queueing
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/2/256 (active/max active/max total)
+     Reserved Conversations 2/2 (allocated/max allocated)
+     Available Bandwidth 2000 kilobits/sec
+  5 minute input rate 2000 bits/sec, 4 packets/sec
+  5 minute output rate 2000 bits/sec, 5 packets/sec
+     632830 packets input, 54541832 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 644944 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     659047 packets output, 63890855 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+FastEthernet0/2 is administratively down, line protocol is down 
+  Hardware is i82545, address is a8b1.d4c9.dc18 (bia a8b1.d4c9.dc18)
+  Description: Esta interface nao serve para servico, somente gerencia
+  MTU 1500 bytes, BW 100000 Kbit, DLY 100 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Full-duplex, 100Mb/s, 100BaseTX/FX
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet0/2 is administratively down, line protocol is down 
+  Hardware is MV64460 Internal MAC, address is a8b1.d4c9.dc1a (bia a8b1.d4c9.dc1a)
+  Description: # Interface Reservada para acesso metro 20M com MBI - ENG - 11.07.11 #
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Unknown duplex, Unknown Speed, media type is RJ45
+  output flow-control is unsupported, input flow-control is unsupported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+GigabitEthernet0/3 is administratively down, line protocol is down 
+  Hardware is MV64460 Internal MAC, address is a8b1.d4c9.dc19 (bia a8b1.d4c9.dc19)
+  MTU 1500 bytes, BW 1000000 Kbit, DLY 10 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation ARPA, loopback not set
+  Keepalive set (10 sec)
+  Unknown duplex, Unknown Speed, media type is RJ45
+  output flow-control is unsupported, input flow-control is unsupported
+  ARP type: ARPA, ARP Timeout 04:00:00
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored
+     0 watchdog, 0 multicast, 0 pause input
+     0 input packets with dribble condition detected
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 babbles, 0 late collision, 0 deferred
+     0 lost carrier, 0 no carrier, 0 pause output
+     0 output buffer failures, 0 output buffers swapped out
+Serial1/0 is up, line protocol is up 
+  Hardware is M8T-V.35
+  Description: < ckt SPO RR7 MNS 1PM DPDV 0002 >% mbmbi01.mbi.psys_S 5/7:0 # Conexao Backbone IP MBMBI01 $ BKB ! 1
+  MTU 1542 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Restart-Delay is 0 secs
+  LMI enq sent  12077, LMI stat recvd 12077, LMI upd recvd 0, DTE LMI up
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DTE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 176495/0, interface broadcasts 174482
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 1 packets/sec
+  5 minute output rate 0 bits/sec, 1 packets/sec
+     199665 packets input, 10689197 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     196302 packets output, 10450609 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions     DCD=up  DSR=up  DTR=up  RTS=up  CTS=up
+
+Serial1/0.852 is up, line protocol is up 
+  Hardware is M8T-V.35
+  Description: < ckt SPO RR7 MNS 1PM DPDV 0002 - dlci 852> %mbmbi01.mbi.psys_S5/7:0.852 # Uplink MBmbi01 $ BKB !1 @C
+  Internet address is 10.34.70.1/30
+  MTU 1542 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial1/1 is up, line protocol is up 
+  Hardware is M8T-V.35
+  Description: < SPOJP6MNS1PMDPDV0002 >% mbigs01.igs.psys_S5/3:0 # link direto com MBIGS01para mfr16 $BKBCM !1
+  MTU 1534 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 51/255, rxload 112/255
+  Encapsulation FRAME-RELAY, crc 16, loopback not set
+  Restart-Delay is 0 secs
+  Bundle Link of bundle MFR16
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  30 second input rate 906000 bits/sec, 114 packets/sec
+  30 second output rate 410000 bits/sec, 117 packets/sec
+     18960996 packets input, 3123781918 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     19808524 packets output, 4138517337 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions     DCD=up  DSR=up  DTR=up  RTS=up  CTS=up
+
+Serial1/1.851 is deleted, line protocol is down 
+  Hardware is M8T-V.35
+  MTU 1534 bytes, BW 1544 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 51/255, rxload 112/255
+  Encapsulation FRAME-RELAY
+  Last clearing of "show interface" counters never
+Serial1/2 is up, line protocol is up 
+  Hardware is M8T-V.35
+  Description: <CABO> % IGMNS02_6.1 # Conexao Backbone IGX $ BKB ! 1 @
+  MTU 1542 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Restart-Delay is 0 secs
+  LMI enq sent  12077, LMI stat recvd 12077, LMI upd recvd 0, DTE LMI up
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DTE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 175125/0, interface broadcasts 173112
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  30 second input rate 0 bits/sec, 1 packets/sec
+  30 second output rate 0 bits/sec, 1 packets/sec
+     196764 packets input, 9933319 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     195062 packets output, 10234574 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions     DCD=up  DSR=up  DTR=up  RTS=up  CTS=up
+
+Serial1/2.131 is up, line protocol is up 
+  Hardware is M8T-V.35
+  Description: <BACKBONE> %mbpat01.pat.sys.ATM1/0.851 # Uplink MBPAT01 $ BKB !1 @C
+  Internet address is 10.34.4.202/30
+  MTU 1542 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial1/3 is up, line protocol is up 
+  Hardware is M8T-V.35
+  Description: < ckt SPO JP6 MNS UI5 DPDV 0002 > %mbigs01.igspsys_S2/7:0  link direto com MBIGS01 para mfr16 $BKBCM !1
+  MTU 1534 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 45/255, rxload 106/255
+  Encapsulation FRAME-RELAY, crc 16, loopback not set
+  Restart-Delay is 0 secs
+  Bundle Link of bundle MFR16
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 855000 bits/sec, 104 packets/sec
+  5 minute output rate 367000 bits/sec, 116 packets/sec
+     18923457 packets input, 3113629241 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     129 input errors, 119 CRC, 0 frame, 4 overrun, 4 ignored, 6 abort
+     19781485 packets output, 4135688203 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions     DCD=up  DSR=up  DTR=up  RTS=up  CTS=up
+
+Serial1/3.854 is deleted, line protocol is down 
+  Hardware is M8T-V.35
+  MTU 1534 bytes, BW 1544 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 45/255, rxload 106/255
+  Encapsulation FRAME-RELAY
+  Last clearing of "show interface" counters never
+Serial1/4 is up, line protocol is up 
+  Hardware is M8T-V.35
+  Description: <Ckt SPO RR7 MNS 1PM DPDV 0004 > % mbmbi02.mbi.psys_S0/3/6:0 # Conexao Backbone MBMBI0201 $ BKB ! 1 
+  MTU 1542 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Restart-Delay is 0 secs
+  LMI enq sent  12077, LMI stat recvd 12077, LMI upd recvd 0, DTE LMI up
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DTE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 176534/0, interface broadcasts 174521
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 1 packets/sec
+  5 minute output rate 0 bits/sec, 1 packets/sec
+     199796 packets input, 10729507 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     196291 packets output, 10451572 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions     DCD=up  DSR=up  DTR=up  RTS=up  CTS=up
+
+Serial1/4.854 is up, line protocol is up 
+  Hardware is M8T-V.35
+  Description: < CKT SPO RR7 MNS 1PM DPDV 0004 - DLCI 854 > %mbmbi02.mbi.psys_S0/3/6:0.854 # Uplink MBMBI02 $ BKB !1 @C
+  Internet address is 10.34.70.9/30
+  MTU 1542 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial1/5 is up, line protocol is up 
+  Hardware is M8T-V.35
+  Description: <Ckt SPO RR7 MNS 1PM DPDV 0006 > % mbmbi02.mbi.psys_S0/3/7:0 # Conexao Backbone MBMBI0201 $ BKB ! 1 
+  MTU 1542 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Restart-Delay is 0 secs
+  LMI enq sent  12077, LMI stat recvd 12077, LMI upd recvd 0, DTE LMI up
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DTE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 176499/0, interface broadcasts 174486
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 1 packets/sec
+  5 minute output rate 0 bits/sec, 1 packets/sec
+     197092 packets input, 10601286 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     196507 packets output, 10474620 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions     DCD=up  DSR=up  DTR=up  RTS=up  CTS=up
+
+Serial1/5.854 is up, line protocol is up 
+  Hardware is M8T-V.35
+  Description: < CKT SPO RR7 MNS 1PM DPDV 0006 - DLCI 854 > %mbmbi02.mbi.psys_S0/3/7:0.854 # Uplink MBMBI02 $ BKB !1 @C
+  Internet address is 10.34.70.13/30
+  MTU 1542 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial1/6 is up, line protocol is up 
+  Hardware is M8T-V.35
+  Description: < MNS 1PM SPO JP6 DPDV 0001>% mbigs01.igs.psys_S1/3:0 # link direto com MBIGS01para mfr16 $BKBCM !1
+  MTU 1534 bytes, BW 2048 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 51/255, rxload 112/255
+  Encapsulation FRAME-RELAY, crc 16, loopback not set
+  Restart-Delay is 0 secs
+  Bundle Link of bundle MFR16
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  30 second input rate 907000 bits/sec, 113 packets/sec
+  30 second output rate 410000 bits/sec, 118 packets/sec
+     18963030 packets input, 3124639627 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     20153840 packets output, 4193527307 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions     DCD=up  DSR=up  DTR=up  RTS=up  CTS=up
+
+Serial1/7 is administratively down, line protocol is down 
+  Hardware is M8T-V.35
+  MTU 1500 bytes, BW 1544 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Restart-Delay is 0 secs
+  Last input never, output never, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/0/256 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 1158 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions     DCD=down  DSR=down  DTR=down  RTS=down  CTS=down
+
+Serial3/0:0 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K010 TS 1-2 / LP_1444-2010 > %ra051952.mns.brad_Serial0/0/0 # BDN 27024 SHOPPING SAO JOSE $ BDN !2
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12078, LMI stat sent  12078, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9294/0, interface broadcasts 7281
+  Last input 00:00:00, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     78957 packets input, 5859395 bytes, 0 no buffer
+     Received 0 broadcasts, 11 runts, 0 giants, 0 throttles
+     11 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     75505 packets output, 6560443 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:1-2, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:0.117 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K010 TS 1-2 DLCI 117 / LP_1444-2010 > %ra051952.mns.brad_Serial0/0/0.1 # BDN 27024 SHOPPING SAO JOSE $ BDN !2 @A
+  Internet address is 172.24.113.233/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:2 is up, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K010 TS 3-4 / LP_1434-2010 > %ra17673bd.mns.brad_Serial1 # BDN 13705 IFER DA AMAZONIA LTDA $ BDN !0
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input 1w6d, output 1w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:3-4, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:2.611 is down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K010 TS 3-4 DLCI 611 / LP_1434-2010 > %ra17673bd.mns.brad_Serial1.1 # BDN 13705 IFER DA AMAZONIA LTDA $ BDN !0 @A
+  Internet address is 172.24.191.89/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:4 is up, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K010 TS 5-6 / LP_0800-2010 > %ra11528bd.mns.brad_Serial0 # 4700116169 CALOI NORTE UNIDADE MANAUS $ BDN !0
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 248/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input 1w6d, output 1w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 939 runts, 0 giants, 0 throttles
+     939 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:5-6, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:4.511 is down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K010 TS 5-6 DLCI 511 / LP_0800-2010 > %ra11528bd.mns.brad_Serial0.1 # 4700116169 CALOI NORTE UNIDADE MANAUS $ BDN !0 @A
+  Internet address is 172.25.187.169/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 248/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:6 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # RESERVADO PROJETO SINERGIA 2009 - DEDONIO - 11/08/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 40w0d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:7, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:7 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # RESERVADO PROJETO SINERGIA 2009 - DEDONIO - 11/08/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 40w0d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:8, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:8 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K010 TS 9-10 / LP_MNS1PMMNSITADPAT0004 > %ra15620bd.mns.brad_Serial0/0/0 # BDN 13330/14276 SIEMENS ELETROELETRONICA $ BDN !0
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12079, LMI stat sent  12079, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9291/0, interface broadcasts 7278
+  Last input 00:00:01, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     81237 packets input, 5832985 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     78834 packets output, 7016214 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:9-10, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:8.517 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K010 TS 9-10 DLCI 517 / LP_MNS1PMMNSITADPAT0004 > %ra15620bd.mns.brad_Serial0/0/0.1 # BDN 13330/14276 SIEMENS ELETROELETRONICA $ BDN !0 @A
+  Internet address is 172.24.190.25/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:10 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # RESERVADO PROJETO SINERGIA 2009 - DEDONIO - 11/08/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:11, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:11 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # RESERVADO PROJETO SINERGIA 2009 - DEDONIO - 11/08/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 249/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:12, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:12 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K010 TS 13-14 / MNS1PMMNSTRNDPAT0004> %ra16510bd.mns.brad_Serial1 # BDN AMAZONAS TRIBUNAL DE JUSTIGA $ BDN !1!
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12063, LMI stat sent  12063, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9300/0, interface broadcasts 7287
+  Last input 00:00:01, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 1 packets/sec
+     84746 packets input, 4893573 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     168125 packets output, 12793454 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:13-14, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:12.878 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K010 TS 13-14 DLCI 878 / MNS1PMMNSTRNDPAT0004> %ra16510bd.mns.brad_Serial1.1 # BDN AMAZONAS TRIBUNAL DE JUSTIGA $ BDN !1@A
+  Internet address is 172.24.190.225/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:14 is up, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 4700116116 TS 15-16 / LP_0731-2010 > %ra16319bd.mns.brad_Serial1 # 4700116182 BDN AMAZONAS TRIBUNAL DE JUSTICA $ BDN !0
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  12077, LMI stat recvd 0, LMI upd recvd 0, DTE LMI down
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DTE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input 1w6d, output 00:00:07, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     12077 packets output, 169078 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:15-16, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:14.880 is down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 4700116116 TS 15-16 DLCI 880 / LP_0731-2010 > %ra16319bd.mns.brad_Serial1.1 # 4700116182 BDN AMAZONAS TRIBUNAL DE JUSTICA $ BDN !0 @A
+  Internet address is 172.24.190.177/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:16 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K010 TS 17-18 / LP_1375-2010 > %ra050471.mns.brad_Serial0 # BDN TV AMAZONAS $ BDN !2 @A
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12078, LMI stat sent  12078, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9921/0, interface broadcasts 7908
+  Last input 00:00:03, output 00:00:02, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     83693 packets input, 5338124 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     82228 packets output, 10270290 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:17-18, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:16.413 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K010 TS 17-18 DLCI 413 / LP_1375-2010 > %ra050471.mns.brad_Serial0.1 # BDN TV AMAZONAS $ BDN !2 @A
+  Internet address is 172.25.221.73/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:18 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K010 TS 19-20 / LP_1376-2010 > %ra09796bd.mns.brad_Serial0 # SETIMO BATALHAO DE POLICIA MILITAR DO ESTADO DO AM $ BDN !2 @A
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12023, LMI stat sent  12023, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9868/0, interface broadcasts 7861
+  Last input 00:00:01, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     72061 packets input, 4464272 bytes, 0 no buffer
+     Received 0 broadcasts, 958 runts, 0 giants, 0 throttles
+     1215 input errors, 23 CRC, 0 frame, 0 overrun, 0 ignored, 131 abort
+     70341 packets output, 5128468 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:19-20, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:18.143 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K010 TS 19-20 DLCI 143 / LP_1376-2010 > %ra09796bd.mns.brad_Serial0.1 # SETIMO BATALHAO DE POLICIA MILITAR DO ESTADO DO AM $ BDN !2 @A
+  Internet address is 172.25.190.137/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:20 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K010 TS 21-22 / LP_MNS1PMMNS0YMDPAT0002 > %ra13055bd.mns.brad_Serial1 # BDN 2159 SHOPPING GRANDE $ BDN !2
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12044, LMI stat sent  12044, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9885/0, interface broadcasts 7874
+  Last input 00:00:02, output 00:00:02, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     72532 packets input, 5605028 bytes, 0 no buffer
+     Received 0 broadcasts, 690 runts, 0 giants, 0 throttles
+     935 input errors, 25 CRC, 0 frame, 0 overrun, 0 ignored, 127 abort
+     70906 packets output, 9450070 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:21-22, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:20.865 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K010 TS 21-22 DLCI 865 / LP_MNS1PMMNS0YMDPAT0002 > %ra13055bd.mns.brad_Serial1 # BDN 2159 SHOPPING GRANDE $ BDN !2 @A
+  Internet address is 172.25.201.249/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:22 is up, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K010 TS 23-24 / LP_MNS1PMMNSPR1DPAT0002 > %ra052739.mns.brad_Serial0/0/0 # BDN BEMOL EDUCANDOS $ BDN !0 @A
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input 1w6d, output 1w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 1 runts, 0 giants, 0 throttles
+     1 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:23-24, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:22.858 is down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K010 TS 23-24 DLCI 858 / LP_MNS1PMMNSPR1DPAT0002 > %ra052739.mns.brad_Serial0/0/0.1 # BDN BEMOL EDUCANDOS $ BDN !0 @A
+  Internet address is 172.24.152.177/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:24 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K010 TS 25-26 / LP_0732-2010 > %ra11628bd.mns.brad_Serial0 # FUND TELEVISAO E RADIO CULTURA DO AM $ BDN !0
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12078, LMI stat sent  12078, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9928/0, interface broadcasts 7915
+  Last input 00:00:03, output 00:00:03, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     71258 packets input, 4187115 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     70961 packets output, 4676892 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:25-26, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:24.508 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K010 TS 25-26 DLCI 508 / LP_0732-2010 > %ra11628bd.mns.brad_Serial0.1 # FUND TELEVISAO E RADIO CULTURA DO AM $ BDN !0 @A
+  Internet address is 172.25.190.33/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:26 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K010 TS 27-28 / LP_MNS1PMMNSPRBDPAT0002 > %ra16796bd.mns.brad_Serial1 # BDN PAC EDUCANDOS - POSTO DE ATENDIMENTO AO CIDADCO $ BDN !2
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12072, LMI stat sent  12072, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9289/0, interface broadcasts 7275
+  Last input 00:00:09, output 00:00:09, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     72528 packets input, 4577535 bytes, 0 no buffer
+     Received 0 broadcasts, 8 runts, 0 giants, 0 throttles
+     18 input errors, 2 CRC, 0 frame, 0 overrun, 0 ignored, 6 abort
+     70710 packets output, 4362499 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:27-28, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:26.854 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K010 TS 27-28 DLCI 854 / LP_MNS1PMMNSPRBDPAT0002 > %ra16796bd.mns.brad_Serial1.1 # BDN 13578 PAC EDUCANDOS - POSTO DE ATENDIMENTO AO CIDADCO $ BDN !2 @A
+  Internet address is 172.24.187.33/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:28 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K010 TS 29-30 / LP_0734-2010 > %ra12716bd.mns.brad_Serial0 # BDN DENSO INDUSTRIAL DA AMAZONIA LTDA $ BDN !0
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12051, LMI stat sent  12051, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9891/0, interface broadcasts 7878
+  Last input 00:00:01, output 00:00:02, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     108818 packets input, 6833006 bytes, 0 no buffer
+     Received 0 broadcasts, 1305 runts, 0 giants, 0 throttles
+     2238 input errors, 45 CRC, 0 frame, 0 overrun, 0 ignored, 521 abort
+     65972 packets output, 4486023 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:29-30, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/0:28.164 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K010 TS 29-30 DLCI 164 / LP_0734-2010 > %ra12716bd.mns.brad_Serial0.1 # BDN DENSO INDUSTRIAL DA AMAZONIA LTDA $ BDN !0 @A
+  Internet address is 172.25.191.73/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/0:30 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # RESERVADO PROJETO SINERGIA 2009 - DEDONIO - 11/08/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:31, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:0 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126425 AG EDUARDO RIBEIRO Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input 50w6d, output 45w4d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:1, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:1 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126425 AG EDUARDO RIBEIRO Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 39w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:2, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:2 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126425 AG EDUARDO RIBEIRO Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:3, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:3 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126425 AG EDUARDO RIBEIRO Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:4, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:4 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126425 AG EDUARDO RIBEIRO Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:5, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:5 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126425 AG EDUARDO RIBEIRO Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:6, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:6 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126425 AG EDUARDO RIBEIRO Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:7, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:7 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126425 AG EDUARDO RIBEIRO Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:8, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:8 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126497 AG EDUCANDOS Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:9, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:9 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126497 AG EDUCANDOS Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:10, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:10 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126497 AG EDUCANDOS Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:11, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:11 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126497 AG EDUCANDOS Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:12, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:12 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126497 AG EDUCANDOS Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:13, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:13 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126497 AG EDUCANDOS Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:14, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:14 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126497 AG EDUCANDOS Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:15, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:15 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Reservada OS 1-239126497 AG EDUCANDOS Geraldo 02.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:16, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:16 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K011 TS 17-24 / MNS1PMMNSTACDPCT0002 > %ra19190ag.mns.brad_Serial0/0/0 # AGS 3772 MANAUS I ATP ASBACE $ AGE !1
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12079, LMI stat sent  12079, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 13504/0, interface broadcasts 11491
+  Last input 00:00:02, output 00:00:02, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 104
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 1 packets/sec
+     268211 packets input, 41290607 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     286627 packets output, 142030364 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:17-24, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:16.746 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K011 TS 17-24 DLCI 746 / MNS1PMMNSTACDPCT0002 > %ra19190ag.mns.brad_Serial0/0/0.1 # AGS 3772 MANAUS I ATP ASBACE $ AGE !1 @A
+  Internet address is 172.24.137.137/30
+  MTU 1500 bytes, BW 192 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+  Last clearing of "show interface" counters never
+Serial3/1:24 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNS LM DM MNS 1PM 02048K 011 TS 25-26 / LP_Pta-B > %ra039945.mns.brad_Serial0/0/0 # 12189 BDN PAE VIDEOLAR SA  $ BDN !2 @A
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12078, LMI stat sent  12078, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9248/0, interface broadcasts 7235
+  Last input 00:00:06, output 00:00:04, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 1 packets/sec
+  5 minute output rate 0 bits/sec, 1 packets/sec
+     67492 packets input, 3863860 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     66766 packets output, 4352280 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:25-26, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:24.205 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNS LM DM MNS 1PM 02048K 011 TS 25-26 - DLCI 205 > %ra039945.mns.brad_Serial0/0/0.1 # 12189 BDN PAE VIDEOLAR SA $ BDN !2 @A
+  Internet address is 172.26.241.116/31
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:26 is up, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNSLMDMMNS1PM02048K010  TS 27_28 / LP_MNS1PMMNSITADPAT0002 > %ra03962bd.mns.brad_Serial0 # BDN 12504 COSMOSPLAST IND E COM DE PLAST LTDA $ BDN !2
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 246/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input 7w0d, output 7w0d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 463968395 runts, 0 giants, 0 throttles
+     481962941 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 17994546 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:27-28, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:26.154 is down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNSLMDMMNS1PM02048K010  TS 27_28 DLCI 154 / LP_MNS1PMMNSITADPAT0002 > %ra03962bd.mns.brad_Serial0.1 # BDN 12504 COSMOSPLAST IND E COM DE PLAST LTDA $ BDN !2 @A
+  Internet address is 172.25.187.49/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 246/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/1:28 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA PARA BDN AGENCIA 2811/DISTRITO IND. HONDA URB MANAUS - OS  - PROJETO MIGRAGCO TERCEIROS PRIMESYS - 22/03/2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:29, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:29 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNSLMDMMNS1PM02048K011 TS 30-31 / LP_MNS1PMSMDBDDPAT0001 > %ra035711.mns.brad_Serial0/0/0 # 26955 BDN PAA SENA MADUREIRA  $ BDN !2 @A
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12077, LMI stat sent  12077, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9252/0, interface broadcasts 7239
+  Last input 00:00:01, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 90
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     103422 packets input, 8443823 bytes, 0 no buffer
+     Received 0 broadcasts, 1 runts, 0 giants, 0 throttles
+     2 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 1 abort
+     101260 packets output, 21615369 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:30-31, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/1:29.229 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNSLMDMMNS1PM02048K011 TS 30-31 - DLCI 229 > %ra035711.mns.brad_Serial0/0/0.1 # 26955 BDN PAA SENA MADUREIRA $ BDN !2 @A
+  Internet address is 172.26.127.228/31
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/2:0 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K012 TS 1-8 / MNS1PMMNSDJSDPCT0002 > %ra19191ag.mns.brad_Serial0/0/0 # AGS MANAUS III - NORDESTE $ AGE !2 @A
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12079, LMI stat sent  12079, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9297/0, interface broadcasts 7284
+  Last input 00:00:04, output 00:00:04, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 1 packets/sec
+  5 minute output rate 0 bits/sec, 1 packets/sec
+     81617 packets input, 4970285 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     82454 packets output, 7376032 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:1-8, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/2:0.765 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K012 TS 1-8 DLCI 765 / MNS1PMMNSDJSDPCT0002 > %ra19191ag.mns.brad_Serial0/0/0.1 # AGS MANAUS III - NORDESTE $ AGE !2 @A
+  Internet address is 172.24.137.145/30
+  MTU 1500 bytes, BW 192 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY
+  Last clearing of "show interface" counters never
+Serial3/2:8 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K012 TS 9-10 / LP_0553-2010 > %ra052737.mns.brad_Serial0/0/0 # BDN 27526 CARREFOUR PONTA NEGRA $ BDN !1
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input 41w0d, output 40w2d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/6/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 96 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:9-10, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/2:8.857 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K012 TS 9-10 / LP_0553-2010 DLCI 857 > %ra052737.mns.brad_Serial0/0/0.1 # BDN 27526 CARREFOUR PONTA NEGRA $ BDN !1 @A
+  Internet address is 172.24.183.17/30
+  MTU 1500 bytes, BW 10 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/2:10 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNSLMDMMNS1PM02048K012 TS 11-18 > %ra16542ag.mns.brad_Serial0/1/0 # 0938 AGP BOULEVARD URB MANAUS AM - TITULAR $ ALTA !1
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12080, LMI stat sent  12080, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 13516/0, interface broadcasts 11503
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 251
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 1000 bits/sec, 1 packets/sec
+  5 minute output rate 0 bits/sec, 1 packets/sec
+     810204 packets input, 73751721 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     689910 packets output, 205828010 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:11-18, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/2:10.125 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNSLMDMMNS1PM02048K012 TS 11-18 / DLCI 125 > %ra16542ag.mns.brad_Serial0/1/0.1 # 0938 AGP BOULEVARD URB MANAUS AM - TITULAR$ ALTA !1 @A
+  Internet address is 172.24.184.17/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/2:18 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNSLMDMMNS1PM02048K012 TS 19-20 / LP_MNS1PMMNSUGPDPAT0002 > %ra059900.mns.brad_Serial0 # 28748 BDN FRIGORIFICO BOM TEMPERO $ BDN !2 @A
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12078, LMI stat sent  12078, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 13504/0, interface broadcasts 11491
+  Last input 00:00:04, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     80917 packets input, 5089036 bytes, 0 no buffer
+     Received 0 broadcasts, 1 runts, 0 giants, 0 throttles
+     2 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     85027 packets output, 9940596 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:19-20, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/2:18.618 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNSLMDMMNS1PM02048K012 TS 19-20 - DLCI 618 > %ra059900.mns.brad_Serial0.1 # 28748 BDN FRIGORIFICO BOM TEMPERO $ BDN !2 @A
+  Internet address is 172.26.242.84/31
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/2:20 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA PARA BDN INDUSTRIA MOTO HONDA - OS  - PROJETO MIGRAGCO TERCEIROS PRIMESYS - 22/03/2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:21, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/2:21 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNS-LM-DM-MNS-1PM-02048K 012 TS 22-29 / MNS-1P-MMN-SO-QZ-DPCT 0002 > %ra08454ag.mns.brad_Serial0/0/0 # 3733 AG AV NOEL NUTLES $ AGE !1
+  MTU 1500 bytes, BW 512 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12016, LMI stat sent  12016, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 13477/0, interface broadcasts 11472
+  Last input 00:00:03, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 61
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 1000 bits/sec, 1 packets/sec
+  5 minute output rate 2000 bits/sec, 1 packets/sec
+     921364 packets input, 105098490 bytes, 0 no buffer
+     Received 0 broadcasts, 174 runts, 1 giants, 0 throttles
+     2428 input errors, 281 CRC, 0 frame, 0 overrun, 0 ignored, 852 abort
+     769564 packets output, 262222876 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:22-29, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/2:21.127 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNS-LM-DM-MNS-1PM-02048K 012 TS 22-29 / MNS-1P-MMN-SO-QZ-DPCT 0002 DLCI 127 > %ra08454ag.mns.brad_Serial0/0/0.1 # 3733 AG AV NOEL NUTLES $ AGE !1 @A
+  Internet address is 172.24.184.33/30
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/2:29 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA PARA BDN  INDUSTRIA MOTO HONDA - OS  - PROJETO MIGRAGCO TERCEIROS PRIMESYS - 22/03/2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:30, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/2:30 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA PARA BDN  INDUSTRIA MOTO HONDA - OS  - PROJETO MIGRAGCO TERCEIROS PRIMESYS - 22/03/2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:31, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:0 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < MNSLMDMMNS1PM02048K013 TS 1-4 / LPb > %ra08479ag.mns.brad_Serial0/1/0 # 3323 HIPER DB PONTA NEGRA $ AGE !1
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 11997, LMI stat sent  11997, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9168/0, interface broadcasts 7164
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 186
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 1000 bits/sec, 0 packets/sec
+     35115 packets input, 2271697 bytes, 0 no buffer
+     Received 0 broadcasts, 168 runts, 3 giants, 0 throttles
+     4508 input errors, 3495 CRC, 0 frame, 0 overrun, 0 ignored, 451 abort
+     328286 packets output, 137577089 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:1-4, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:0.330 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < MNSLMDMMNS1PM02048K013 TS 1-4 / LPb DLCI 330 > %ra08479ag.mns.brad_Serial0/1/0 # 3323 HIPER DB PONTA NEGRA $ AGE !1 @A 
+  Internet address is 172.26.236.120/31
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/3:4 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < MNSLMDMMNS1PM02048K013 TS 5-8 / LP_MNS1PMMNS0HXDPHT0002 > %ra09589ag.mns.brad_Serial0/0 # 3702 AVENIDA LEOPOLDO PERES $ AGE !1 
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12079, LMI stat sent  12079, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9923/0, interface broadcasts 7910
+  Last input 00:00:01, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 59
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     560878 packets input, 75937225 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     510780 packets output, 167578694 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:5-8, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:4.524 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < MNSLMDMMNS1PM02048K013 TS 5-8 / LP_MNS1PMMNS0HXDPHT0002 DLCI 524 > %ra09589ag.mns.brad_Serial0/0 # 3702 AVENIDA LEOPOLDO PERES $ AGE !1 @A 
+  Internet address is 172.25.186.57/30
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/3:8 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNSLMDMMNS1PM02048K013 TS 9-12 > %ra33710ag.sat1.brad_Serial0 # 3710 AG COARI- TITULAR $ ALTA !1
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12079, LMI stat sent  12079, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 13497/0, interface broadcasts 11484
+  Last input 00:00:03, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 30
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 1000 bits/sec, 1 packets/sec
+  5 minute output rate 2000 bits/sec, 1 packets/sec
+     388109 packets input, 48660305 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     372540 packets output, 118115448 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:9-12, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:8.32 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/3:8.328 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNSLMDMMNS1PM02048K013 TS 9-12 / DLCI 328> %ra33710ag.sat1.brad_Serial0.1 # 3710 AG COARI- TITULAR $ ALTA !1 @A
+  Internet address is 172.26.234.244/31
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/3:12 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA PARA BDN PAB MOTO HONDA AMAZONIA LTDA - OS  - PROJETO MIGRAGCO TERCEIROS PRIMESYS - 22/03/2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:13, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:13 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA PARA BDN MOTO HONDA AMAZONIA LTDA - OS  - PROJETO MIGRAGCO TERCEIROS PRIMESYS - 22/03/2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:14, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:14 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K013 TS 15-18 / LP MNS1PMMNSTRNDPHT0006> %ra052629.mns.brad_Serial0/0/0 # AG 2206 MANAUARA SHOPPING $ AGE !1
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 11871, LMI stat sent  11871, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9126/0, interface broadcasts 7144
+  Last input 00:00:02, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 93
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 1000 bits/sec, 1 packets/sec
+  5 minute output rate 0 bits/sec, 1 packets/sec
+     454803 packets input, 65861729 bytes, 0 no buffer
+     Received 0 broadcasts, 1263 runts, 2 giants, 0 throttles
+     2391 input errors, 120 CRC, 0 frame, 0 overrun, 0 ignored, 523 abort
+     425829 packets output, 162237457 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:15-18, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:14.413 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K013 TS 15-18 / LP MNS1PMMNSTRNDPHT0006 - DLCI 413> %ra052629.mns.brad_Serial0/0/0.1 # AG 2206 MANAUARA SHOPPING  $ AGE !1 @A 
+  Internet address is 172.24.215.193/30
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/3:18 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA PARA AG ALVORADA - 1-204515027 - BRUNO - 22/12/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:19, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:19 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA PARA AG ALVORADA - 1-204515027 - BRUNO - 22/12/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:20, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:20 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA PARA AG ALVORADA - 1-204515027 - BRUNO - 22/12/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:21, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:21 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA PARA AG ALVORADA - 1-204515027 - BRUNO - 22/12/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:22, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:22 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA PARA AG ALVORADA - 1-204515027 - BRUNO - 22/12/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:23, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:23 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA PARA AG ALVORADA - 1-204515027 - BRUNO - 22/12/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:24, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:24 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA PARA AG ALVORADA - 1-204515027 - BRUNO - 22/12/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:25, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:25 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA PARA AG ALVORADA - 1-204515027 - BRUNO - 22/12/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:26, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:26 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA PARA BDN HIPERMERCADO CARREFOUR PONTA NEGRA  TS 27 SINERGIA PAULO HORACIO  29/3/2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:27, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:27 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA - OS 1-238212681 -PROJETO MIGRACAO TERCEIROS PRIMESYS - 29.04.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 15w4d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:28, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:28 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface Vaga
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 15w4d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:29, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:29 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # Interface reservada BDN 10858 PAB 05 - AMAZONAS DISTRIBUIDORA DE ENERGIA S/A - OS 171585-1 - DROVANDI - 30/05/3011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 15w4d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:30, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:30 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNSLMDMMNS1PM02048K013 TS 31 / LP_MNS1PMMNS0YYDP8T0002 > %ra039006.mns.brad_Serial0 # 10816 BDN PAB SUHAB $ BDN !2
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 3761, LMI stat sent  3761, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 2919/0, interface broadcasts 2293
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 10:26:56
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     28303 packets input, 1723878 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     27493 packets output, 2217018 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:31, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/3:30.214 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNSLMDMMNS1PM02048K013 TS 31 / DLCI 214 LP_MNS1PMMNS0YYDP8T0002 > %ra039006.mns.brad_Serial0 # 10816 BDN PAB SUHAB $ BDN !2 @A 
+  Internet address is 172.26.251.248/31
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/4:0 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # RESERVADO PROJETO SINERGIA 2009 - DEDONIO - 11/08/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input 46w6d, output 44w4d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:1, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:1 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # RESERVADO PROJETO SINERGIA 2009 - DEDONIO - 11/08/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input 46w6d, output 44w4d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:2, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:2 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K014 TS 3-4 / LP_MNS1PMMNS0VKDPAT0002 > %ra18513bd.mns.brad_Serial0 # BDN 13757 GK&B INDUSTRIA DE COMPONENTES DA AMAZONIA L $ BDN !0
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12079, LMI stat sent  12079, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9297/0, interface broadcasts 7284
+  Last input 00:00:04, output 00:00:04, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     72498 packets input, 5086579 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     73431 packets output, 6027664 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:3-4, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:2.891 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K014 TS 3-4 DLCI 891 / LP_MNS1PMMNS0VKDPAT0002 > %ra18513bd.mns.brad_Serial0.1 # BDN   13757 GK&B INDUSTRIA DE COMPONENTES DA AMAZONIA L $ BDN !0 @A
+  Internet address is 172.24.191.201/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/4:4 is up, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNSLMDMMNS1PM02048K014 TS 05-08 MNS1PMMNS0VKDPHT0002> %ra063311.mns.brad_Serial0/0/0 # 02 PAB GK&B IND DE COMPONENTES DA AMAZONIA - AG 2467 - BACKUP $ AGE !1
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 0, LMI stat sent  0, LMI upd sent  0, DCE LMI down
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 0/0, interface broadcasts 0
+  Last input 2w4d, output 2w4d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: dual fifo
+  Output queue: high size/max/dropped 0/256/0
+  Output queue: 0/128 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:5-8, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:4.344 is up, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1_MNSLMDMMNS1PM02048K014 TS 05-08 / MNS1PMMNS0VKDPHT0002 DLCI 344 > %ra063311.mns.brad_Serial0/0/0.1 # 02 PAB GK&B IND DE COMPONENTES DA AMAZONIA - AG 2467 - BACKUP $ AGE !1 @A
+  Internet address is 21.18.2.128/31
+  MTU 1500 bytes, BW 256 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/4:8 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K014 TS 9-10 / LP_1406-2010 > %ra05177bd.mns.brad_Serial0 # UNIVERSIDADE DO ESTADO DO AMAZONAS $ BDN !0
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12078, LMI stat sent  12078, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9928/0, interface broadcasts 7915
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     75834 packets input, 5090100 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     75863 packets output, 5565359 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:9-10, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:8.164 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K014 TS 9-10 DLCI 164 / LP_1406-2010 > %ra05177bd.mns.brad_Serial0.1 # UNIVERSIDADE DO ESTADO DO AMAZONAS $ BDN !0 @A
+  Internet address is 172.25.187.17/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/4:10 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # RESERVADO PROJETO SINERGIA 2009 - DEDONIO - 11/08/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:11, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:11 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # RESERVADO PROJETO SINERGIA 2009 - DEDONIO - 11/08/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:12, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:12 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K014 TS 13-14 / LP_1397-2010 > %ra15406bd.mns.brad_Serial1 # BDN HOSPITAL ADRIANO JORGE $ BDN !0
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12053, LMI stat sent  12053, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9287/0, interface broadcasts 7275
+  Last input 00:00:04, output 00:00:04, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     86268 packets input, 5194607 bytes, 0 no buffer
+     Received 0 broadcasts, 184 runts, 0 giants, 0 throttles
+     398 input errors, 25 CRC, 0 frame, 0 overrun, 0 ignored, 101 abort
+     48338 packets output, 4828627 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:13-14, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:12.701 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K014 TS 13-14 DLCI 701 / LP_1397-2010 > %ra15406bd.mns.brad_Serial1.1 # BDN HOSPITAL ADRIANO JORGE $ BDN !0 @A
+  Internet address is 172.24.187.217/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/4:14 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K014 TS 15-16 / LP_0841-2010 > %ra11596bd.mns.brad_Serial1 # CENTRO PSIQUIATRICO EDUARDO RIBEIRO $ BDN !0
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12065, LMI stat sent  12065, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9933/0, interface broadcasts 7920
+  Last input 00:00:00, output 00:00:00, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     82295 packets input, 4610805 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     58989 packets output, 5040907 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:15-16, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:14.522 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K014 TS 15-16 DLCI 522 / LP_0841-2010 > %ra11596bd.mns.brad_Serial1.1 # CENTRO PSIQUIATRICO EDUARDO RIBEIRO $ BDN !0 @A
+  Internet address is 172.25.190.41/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/4:16 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K014 TS 17-18 / LP_1422-2010 > %ra18871bd.mns.brad_Serial1 # BDN PAE NORSEGEL VIG.T $ BDN !0
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12065, LMI stat sent  12065, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9301/0, interface broadcasts 7288
+  Last input 00:00:07, output 00:00:01, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     81434 packets input, 4433644 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     44819 packets output, 4043495 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:17-18, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:16.890 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K014 TS 17-18 DLCI 890 / LP_1422-2010 > %ra18871bd.mns.brad_Serial1.1 # BDN PAE NORSEGEL VIG.T $ BDN !0 @A
+  Internet address is 172.24.137.33/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/4:18 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K014 TS 19-20 / LP_MNS1PMMNS0YJDPAT0002 > %ra05475bd.mns.brad_Serial0 # FUND. HEMATOLOGIA E HEMOTERAPIA DO AMAZONAS $ BDN !0
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12078, LMI stat sent  12078, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9931/0, interface broadcasts 7918
+  Last input 00:00:03, output 00:00:03, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     74913 packets input, 4721147 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     74769 packets output, 5494037 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:19-20, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:18.147 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K014 TS 19-20 DLCI 147 / LP_MNS1PMMNS0YJDPAT0002 > %ra05475bd.mns.brad_Serial0.1 # FUND. HEMATOLOGIA E HEMOTERAPIA DO AMAZONAS $ BDN !0 @A
+  Internet address is 172.25.187.81/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/4:20 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA - 171002-1 - PAB VIDEOLAR S/A - 256Kb  - Jefferson - 27.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:21, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:21 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA - 171002-1 - PAB VIDEOLAR S/A - 256Kb  - Jefferson - 27.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:22, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:22 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA - 171002-1 - PAB VIDEOLAR S/A - 256Kb  - Jefferson - 27.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:23, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:23 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # INTERFACE RESERVADA - 171002-1 - PAB VIDEOLAR S/A - 256Kb  - Jefferson - 27.05.2011
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:24, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:24 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K014 TS 25-26 / LP_1412-2010 > %ra12758bd.mns.brad_Serial0 # SHOPPING AMAZONAS $ BDN !0
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12079, LMI stat sent  12079, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 10269/0, interface broadcasts 8256
+  Last input 00:00:07, output 00:00:07, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     104158 packets input, 7519227 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     102664 packets output, 15986473 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:25-26, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:24.861 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K014 TS 25-26 DLCI 861 / LP_1412-2010 > %ra12758bd.mns.brad_Serial0.1 # SHOPPING AMAZONAS $ BDN !0 @A
+  Internet address is 172.25.191.153/30
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/4:26 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # RESERVADO PROJETO SINERGIA 2009 - DEDONIO - 11/08/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 36w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:27, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:27 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # RESERVADO PROJETO SINERGIA 2009 - DEDONIO - 11/08/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 36w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:28, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:28 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K014 TS 29-30 / LP_1538-2010 > %ra01090bd.mns.brad_Serial0 # CENTRO COMERCIAL DA ZONA FRANCA DE MANAUS $ BDN !0
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF, crc 16, loopback not set
+  Keepalive set (10 sec)
+  LMI enq sent  0, LMI stat recvd 0, LMI upd recvd 0
+  LMI enq recvd 12079, LMI stat sent  12079, LMI upd sent  0, DCE LMI up
+  LMI DLCI 0  LMI type is ANSI Annex D  frame relay DCE  segmentation inactive
+  FR SVC disabled, LAPF state down
+  Broadcast queue 0/64, broadcasts sent/dropped 9923/0, interface broadcasts 7910
+  Last input 00:00:03, output 00:00:05, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: fifo
+  Output queue: 0/40 (size/max)
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     94949 packets input, 6694950 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     93433 packets output, 12275717 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:29-30, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/4:28.21 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: <E1 MNSLMDMMNS1PM02048K014 TS 29-30 DLCI 21 / LP_1538-2010 > %ra01090bd.mns.brad_Serial0.1 # CENTRO COMERCIAL DA ZONA FRANCA DE MANAUS $ BDN !0 @A
+  Internet address is 172.25.159.129/30
+  MTU 1500 bytes, BW 5 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation FRAME-RELAY IETF
+  Last clearing of "show interface" counters never
+Serial3/4:30 is administratively down, line protocol is down 
+  Hardware is PA-MC-8TE1 Plus
+  Description: # RESERVADO PROJETO SINERGIA 2009 - DEDONIO - 11/08/2010
+  MTU 1500 bytes, BW 64 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 1/255, rxload 1/255
+  Encapsulation HDLC, crc 16, loopback not set
+  Keepalive set (10 sec)
+  Last input never, output 50w6d, output hang never
+  Last clearing of "show interface" counters 1d09h
+  Input queue: 0/75/0/0 (size/max/drops/flushes); Total output drops: 0
+  Queueing strategy: weighted fair
+  Output queue: 0/1000/64/0 (size/max total/threshold/drops) 
+     Conversations  0/1/16 (active/max active/max total)
+     Reserved Conversations 0/0 (allocated/max allocated)
+     Available Bandwidth 48 kilobits/sec
+  5 minute input rate 0 bits/sec, 0 packets/sec
+  5 minute output rate 0 bits/sec, 0 packets/sec
+     0 packets input, 0 bytes, 0 no buffer
+     Received 0 broadcasts, 0 runts, 0 giants, 0 throttles
+     0 input errors, 0 CRC, 0 frame, 0 overrun, 0 ignored, 0 abort
+     0 packets output, 0 bytes, 0 underruns
+     0 output errors, 0 collisions, 0 interface resets
+     0 output buffer failures, 0 output buffers swapped out
+     0 carrier transitions   no alarm present
+  Timeslot(s) Used:31, subrate: 64Kb/s, transmit delay is 0 flags
+Serial3/5:0 is up, line protocol is up 
+  Hardware is PA-MC-8TE1 Plus
+  Description: < E1 MNSLMDMMNS1PM02048K015 TS 1-2 / LP_MNS1PMMNS0QWDPAT0004 > %ra15540bd.mns.brad_Serial0 # BDN 20611 CARREFOUR MANAUS $ BDN !2
+  MTU 1500 bytes, BW 128 Kbit, DLY 20000 usec, 
+     reliability 255/255, txload 13/255, rxload 5/255
+  Encapsulation FRAME-RELAY IETF, 

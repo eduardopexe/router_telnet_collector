@@ -1,0 +1,52 @@
+rrliv02.liv.psys;3/0;up.;  Description: <Embratel: RJOTRHRJO0PO0031N011> %rrliv02.liv.psys_E13/0 # Tronco Embratel $ BKB !1
+rrliv02.liv.psys;3/1;up.;  Description: <Embratel: RJOTRHRJO0PO0031N012> %rrliv02.liv.psys_E13/1 # Tronco Embratel $ BKB !1
+rrliv02.liv.psys;3/0;up.;  Description: <Embratel: RJOTRHRJO0PO0031N011> %rrliv02.liv.psys_E13/0 # Tronco Embratel $ BKB !1
+rrliv02.liv.psys;3/1;up.;  Description: <Embratel: RJOTRHRJO0PO0031N012> %rrliv02.liv.psys_E13/1 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/0;up.;  Description: <Embratel: RJOTRHRJO0PO0031N021> %rrliv01.liv.psys_E1 7/0 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/1;up.;  Description: <Embratel: RJOTRHRJO0PO0031N022> %rrliv01.liv.psys_E17/1 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/2;up.;  Description: <Embratel: RJOTRHRJO0PO0031N023> %rrliv01.liv.psys_E1 7/2 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/3;up.;  Description: <Embratel: RJOTRHRJO0PO0031N024> %rrliv01.liv.psys_E1 7/3 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/4;up.;  Description: <Embratel: RJOTRHRJO0PO0031N025> %rrliv01.liv.psys_E1 7/4 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/5;up.;  Description: <Embratel: RJOTRHRJO0PO0031N026> %rrliv01.liv.psys_E1 7/5 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/6;up.;  Description: <Embratel: RJOTRHRJO0PO0031N027> %rrliv01.liv.psys_E1 7/6 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/7;up.;  Description: <Embratel: RJOTRHRJO0PO0031N028> %rrliv01.liv.psys_E1 7/7 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/0;up.;  Description: <Embratel: RJOTRHRJO0PO0031N021> %rrliv01.liv.psys_E1 7/0 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/1;up.;  Description: <Embratel: RJOTRHRJO0PO0031N022> %rrliv01.liv.psys_E17/1 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/2;up.;  Description: <Embratel: RJOTRHRJO0PO0031N023> %rrliv01.liv.psys_E1 7/2 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/3;up.;  Description: <Embratel: RJOTRHRJO0PO0031N024> %rrliv01.liv.psys_E1 7/3 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/4;up.;  Description: <Embratel: RJOTRHRJO0PO0031N025> %rrliv01.liv.psys_E1 7/4 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/5;up.;  Description: <Embratel: RJOTRHRJO0PO0031N026> %rrliv01.liv.psys_E1 7/5 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/6;up.;  Description: <Embratel: RJOTRHRJO0PO0031N027> %rrliv01.liv.psys_E1 7/6 # Tronco Embratel $ BKB !1
+rrliv01.liv.psys;7/7;up.;  Description: <Embratel: RJOTRHRJO0PO0031N028> %rrliv01.liv.psys_E1 7/7 # Tronco Embratel $ BKB !1
+rrliv03.liv.psys;7/0;up.;  Description: <Embratel: RJOTRHRJO0PO0031N013> %rrliv03.liv.psys_E17/0 # Tronco Embratel $ BKB !1
+rrliv03.liv.psys;7/1;up.;  Description: <Embratel: RJOTRHRJO0PO0031N014> %rrliv03.liv.psys_E17/1 # Tronco Embratel $ BKB !1
+rrliv03.liv.psys;7/2;up.;  Description: <Embratel: RJOTRHRJO0PO0031N015> %rrliv03.liv.psys_E17/2 # Tronco Embratel $ BKB !1
+rrliv03.liv.psys;7/3;up.;  Description: <Embratel: RJOTRHRJO0PO0031N016> %rrliv03.liv.psys_E17/3 # Tronco Embratel $ BKB !1
+rrliv03.liv.psys;7/4;up.;  Description: <Embratel: RJOTRHRJO0PO0031N017> %rrliv03.liv.psys_E17/4 # Tronco Embratel $ BKB !1
+rrliv03.liv.psys;7/5;up.;  Description: <Embratel: RJOTRHRJO0PO0031N018> %rrliv03.liv.psys_E17/5 # Tronco Embratel $ BKB !1
+rrliv03.liv.psys;7/6;up.;  Description: <Embratel: RJOTRHRJO0PO0031N019> %rrliv03.liv.psys_E17/6 # Tronco Embratel $ BKB !1
+rrliv03.liv.psys;7/7;up.;  Description: <Embratel: RJOTRHRJO0PO0031N020> %rrliv03.liv.psys_E17/7 # Tronco Embratel $ BKB !1
+rrpat01.pat.psys;7/0;up.;  Description: <Telefonica: 32919033> %rrpat01.pat.psys_E1 7/0 # Tronco Telefonica $ BKB !1
+rrpat01.pat.psys;7/1;up.;  Description: <Telefonica: XXXXXXXX> %rrpat01.pat.psys_E1 7/1 # Tronco Telefonica $ BKB !1
+rrpat01.pat.psys;7/2;up.;
+rrpat01.pat.psys;7/3;up.;
+rrpat01.pat.psys;7/4;up.;
+rrpat01.pat.psys;7/5;up.;
+rrpat01.pat.psys;7/6;up.;  Description: <Embratel: SPO TRN SPO 2BT 31N11> %rrpat01.pat.psys_E1 7/6 # Tronco Embratel $ BKB !1
+rrpat01.pat.psys;7/7;up.;  Description: <Embratel: SPO TRN SPO 2BT 31N10> %rrpat01.pat.psys_E1 7/7 # Tronco Embratel $ BKB !1
+rrcta03.cta.psys;3/0;up.;  Description: <Embratel: CTAJNCTATRA31N0006> %rrcta03.cta.psys_E13/0 # Tronco Embratel $ BKB !1
+rrcta03.cta.psys;3/1;up.;  Description: <Embratel: CTAJNCTATRA31N0008> %rrcta03.cta.psys_E13/1 # Tronco Embratel $ BKB !1
+rrcta02.cta.psys;3/0;up.;  Description: <Embratel: CTAJNCTATRA31N0007> %rrcta02.cta.psys_E1 3/0 # Tronco Embratel $ BKB !1
+rrcta02.cta.psys;3/1;up.;  Description: <Embratel: CTAJNCTATRA31N0005> %rrcta02.cta.psys_E1 3/1 # Tronco Embratel $ BKB !1
+rrcta01.cta.psys;3/0;up.;  Description: <Embratel: CTA JN CTA TRA 31N0003> %rrcta01.cta.psys_E1 3/0 # Tronco Embratel $ BKB !1
+rrcta01.cta.psys;3/1;up.;  Description: <Embratel: CTA JN CTA TRA 31N0004> %rrcta01.cta.psys_E1 3/1 # Tronco Embratel $ BKB !1
+rrpat02.pat.psys;6/0;up.;  Description: <Embratel: SPO TRN SPO 2BT 31N09> %rrpat02.pat.psys_E1 6/0 # Tronco Embratel $ BKB !1
+rrpat02.pat.psys;6/1;up.;  Description: <Embratel: SPO TRN SPO 2BT 31N05> %rrpat02.pat.psys_E1 6/1 # Tronco Embratel $ BKB !1
+rrpat02.pat.psys;6/2;up.;  Description: <Embratel: SPO TRN SPO 2BT 31N08> %rrpat02.pat.psys_E1 6/2 # Tronco Embratel $ BKB !1
+rrpat02.pat.psys;6/3;up.;  Description: <Embratel: SPO TRN SPO 2BT 31N07> %rrpat02.pat.psys_E1 6/3 # Tronco Embratel $ BKB !1
+rrpat02.pat.psys;6/4;up.;  Description: <Embratel: SPO TRN SPO 2BT 31N06> %rrpat02.pat.psys_E1 6/4 # Tronco Embratel $ BKB !1
+rrpat02.pat.psys;6/5;up.;  Description: <Embratel: SPO TRN SPO 2BT 31N04> %rrpat02.pat.psys_E1 6/5 # Tronco Embratel $ BKB !1
+rrpat02.pat.psys;6/6;up.;  Description: <Embratel: SPO TRN SPO 2BT 31N03> %rrpat02.pat.psys_E1 6/6 # Tronco Embratel $ BKB !1
+rrpat02.pat.psys;6/7;up.;  Description: <Embratel: SPO TRN SPO 2BT 31N02> %rrpat02.pat.psys_E1 6/7 # Tronco Embratel $ BKB !1
+rrcta04.cta.psys;3/0;up.;  Description: <Embratel: CTAJNCTATRA31N0001> %rrcta04.cta.psys_E13/0 # Tronco Embratel $ BKB !1
+rrcta04.cta.psys;3/1;up.;  Description: <Embratel: CTAJNCTATRA31N0002> %rrcta04.cta.psys_E13/1 # Tronco Embratel $ BKB !1
